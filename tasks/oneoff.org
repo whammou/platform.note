@@ -4,7 +4,7 @@
 #+TITLE: Platform Oneoff Tasks
 
 * List of Oneoff Tasks :TASK:ONEOFF:PLATFORM:META:
-** PENDING Organize Script repo :GITHUB:
+** PEND Organize Script repo :GITHUB:
 Organize ~scripts~ in ~/scipts~ and ~scripts~ in ~$PATH~
 - [ ] Organize ~/scripts~
 - [ ] Oragnize [[file:/home/whammou/notes/capture.org::*Qtile scripts][qtile]] scripts
@@ -16,19 +16,19 @@ CLOSED: [2025-09-06 Sat 20:09]
 - *[NOTE]* taken on [2025-09-06 20:08]: \\
   Keep track of =repo= updates and receive notifications throught emails by subscribing to the target =repo= and enable =email= notifications
 -----
-** ABORTED Github wiki :GITHUB:
+** ABRT Github wiki :GITHUB:
 CLOSED: [2025-09-06 Sat 20:09]
 - *OBJECTIVE:* learn to write a github wiki page
 -----
 - *[NOTE]* taken on [2025-09-06 20:09]: \\
   Wiki is not needed for a =pkm= system as wiki is the way to take notes within a functional repo. That is essentially a =pkm= repo
 -----
-** PENDING Update github profile :GITHUB:
+** PEND Update github profile :GITHUB:
 :PROPERTIES:
 :ID:       2b2eaa80-2103-4ecb-b5d2-4e1f8893d901
 :END:
 - *OBJECTIVE:* /Update my github profile/
-** ABORTED Workaround id link :GITHUB:ORGMODE:
+** ABRT Workaround id link :GITHUB:ORGMODE:
 CLOSED: [2025-09-06 Sat 21:03] DEADLINE: <2025-09-06 Sat>
 - *OBJECTIVE:* Workaround github render does not support for id link like in orgmode
 -----
@@ -36,7 +36,7 @@ CLOSED: [2025-09-06 Sat 21:03] DEADLINE: <2025-09-06 Sat>
   There are hardly and workaround with =id-link= that actually work because github is not meant to be a =pkm= hosting site. However one can always manually add file-link to their documents
 -----
 - *Reference:* [[https://old.reddit.com/r/emacs/comments/1fdt3bf/a_quick_hack_to_convert_orgorgroam_links_from_id/][Workaround id link on github orgmode @Reddit]]
-*** PARTIAL Using file_link on Github
+*** PRTL Using file_link on Github
 CLOSED: [2025-09-06 Sat 21:10] DEADLINE: <2025-09-06 Sat>
 :PROPERTIES:
 :ID:       143eaa14-d3e0-4743-b745-07358c59476d
@@ -50,7 +50,7 @@ CLOSED: [2025-09-06 Sat 21:10] DEADLINE: <2025-09-06 Sat>
     * Workaround - Disable render of =state= on github combines with =headline-slug= to genrate html friendly link
     * This works very fine with =docs= but not =tasks=
 -----
-** PENDING Advanced search Github :GITHUB:
+** PEND Advanced search Github :GITHUB:
 - *OBJECTIVE:* Learn avanced search technique on github
 - *Reference:* [[https://www.freecodecamp.org/news/github-search-tips/][Github advanced search tips @Freecodecamp]]
 ** DONE Create issue on nvim-orgmode (vim-regex) :GITHUB:PACKAGES:NVIM:ORGMODE:
@@ -87,7 +87,7 @@ CLOSED: [2025-07-29 Tue 22:24] DEADLINE: <2025-07-29 Tue>
   - Github does not seem to support inline language code block
 -----
 - *Reference:* [[https://github.com/nvim-orgmode/orgmode/issues/653][Inline source code block @Github-issue]]
-** PENDING Initialize github.io :GITHUB:PKM:
+** PEND Initialize github.io :GITHUB:PKM:
 - *OBJECTIVE:* Create a functional github.io page for hosting my =PKM=
 - *Reference:* [[https://docs.github.com/en/pages/quickstart#creating-your-website][Create your website @Github-doc]]
 ** DONE Testing image render :ORGMODE:ORGZlY:GITHUB:
@@ -103,7 +103,7 @@ CLOSED: [2025-09-06 Sat 20:17]
     #+END_SRC
   + Exclude root dir from filepath with =vim.gsub= to obtain a relative dir to target =asset=
 -----
-** PENDING Manage Dotfiles with Gitbare :GIT:GITHUB:
+** PEND Manage Dotfiles with Gitbare :GIT:GITHUB:
 - *OBJECTIVE:* Mange files using a gitbare repo
 - *Reference:* [[https://www.youtube.com/watch?v=tBoLDpTWVOM#__preview][Git Bare Repository @Youtube-DT]]
   

@@ -14,7 +14,7 @@
 [!WARNING]
 Draft items are subjected to change and refile!
 #+END_QUOTE
-** OUTLINE Orgmode github hacks :ORGMODE:GITHUB:
+** OUTL Orgmode github hacks :ORGMODE:GITHUB:
 :PROPERTIES:
 :ID: efbdb9d4-436c-4736-b29f-d85d8c4263c7
 :END:

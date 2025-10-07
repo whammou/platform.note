@@ -10,11 +10,11 @@
 #+FILETAGS: :DOC:PROJECT:PLATFORM:YOUTUBE:
 #+HTML:<details>
 
-* PARTIAL Youtube API [66%] :DOC:META:PLATFORM:YOUTUBE:
+* PRTL Youtube API [66%] :DOC:META:PLATFORM:YOUTUBE:
 CLOSED: [2025-06-05 Thu 02:01]
 #+HTML:</details>
 -  *OBJECTIVE:* /Use youtube for documentation:/
-** PENDING Package configurations [50%]
+** PEND Package configurations [50%]
 - *OBJECTIVE:* /Configure packages for smoother experiences/
 *** DONE Youtube downloader - yt-dlp :YTDLP:
 CLOSED: [2025-05-22 Thu 06:28]
@@ -32,7 +32,7 @@ CLOSED: [2025-05-22 Thu 06:28]
   ytdl-format = 'worstvideo[height>=720]+bestaudio'
   #+END_SRC
   - Youtube [[https://github.com/yt-dlp/yt-dlp?tab=readme-ov-file][Cli-youtube-downloader @Github]]
-*** PENDING Subtitle chooser :MPV:
+*** PEND Subtitle chooser :MPV:
 - /Prioritize sub selection script/
   - *Visit:* [[https://github.com/CogentRedTester/mpv-sub-select][Mpv-sub-select @Github]]
 ** DONE Youtube workflow integration

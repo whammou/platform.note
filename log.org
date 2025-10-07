@@ -13,7 +13,7 @@ CLOSED: [2025-07-17 Thu 08:23] DEADLINE: <2025-07-17 Thu>
 CLOSED: [2025-05-13 Tue 18:11] DEADLINE: <2025-05-13 Tue 20:00>
 - *Goal(s):* update note repo structure for more optimal workflow
 - *NOTE:* checkout [[./README.org][README]] and find a suitable repo structure
-*** ABORTED Modify README
+*** ABRT Modify README
 CLOSED: [2025-04-11 Fri 21:41]
 - *Goal(s):* modify and add README content
   - [ ] modify [[./README.org::repo-hierarchy][Hierarchy]]
