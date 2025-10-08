@@ -7,10 +7,10 @@
 #+OPTIONS: title:nil tags:nil todo:nil ^:nil f:t num:t pri:nil toc:t
 #+LATEX_HEADER: \renewcommand\maketitle{} \usepackage[scaled]{helvet} \renewcommand\familydefault{\sfdefault}
 #+TODO: TODO(t) (e) DOIN(d) PEND(p) OUTL(o) EXPL(x) FDBK(b) WAIT(w) NEXT(n) IDEA(i) | ABRT(a) PRTL(r) RVIW(v) DONE(f)
-#+FILETAGS: :DOC:PROJECT:SYSTEM:GITHUB:ORGMODE:PLATFORM:
+#+FILETAGS: :DOC:PROJECT:GITHUB:ORGMODE:PLATFORM:
 #+HTML:<details>
 
-* DONE Github Render Tests [100%] :DOC:META:SYSTEM:GITHUB:ORGMODE:PLATFORM:
+* DONE Github Render Tests [100%] :DOC:META:GITHUB:ORGMODE:PLATFORM:
 CLOSED: [2025-06-19 Thu 20:52]
 #+HTML:</details>
 :PROPERTIES:
