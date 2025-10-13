@@ -90,8 +90,8 @@ CLOSED: [2025-07-29 Tue 22:24] DEADLINE: <2025-07-29 Tue>
 ** PEND Initialize github.io :GITHUB:PKM:
 - *OBJECTIVE:* Create a functional github.io page for hosting my =PKM=
 - *Reference:* [[https://docs.github.com/en/pages/quickstart#creating-your-website][Create your website @Github-doc]]
-** DONE Testing image render :ORGMODE:ORGZlY:GITHUB:
-CLOSED: [2025-09-06 Sat 20:17]
+** WAIT Testing image render :ORGMODE:ORGZlY:GITHUB:
+DEADLINE: <2025-10-14 Tue>
 - *OBJECTIVE:* Find an image syntax that works on both github and orgzly
 -----
 - *[NOTE]* taken on [2025-09-06 20:17]: \\
@@ -103,6 +103,16 @@ CLOSED: [2025-09-06 Sat 20:17]
     #+END_SRC
   + Exclude root dir from filepath with =vim.gsub= to obtain a relative dir to target =asset=
 -----
+*** DOIN Github org-parse Images
+SCHEDULED: <2025-10-14 Tue>
+- *OBJECTIVE:* Testing if =org-ruby= parser on github render images with =attributes=
+-----
+- *[NOTE]* taken on [2025-10-14 05:04]: \\
+  This is a test note for image =attribute=:
+#+ATTR_LaTeX: :width 0.25\linewidth
+[[file:https://www.radfordmathematics.com/functions/quadratic-functions-parabola/vertex-form/vertex-form-illustration.png]]
+-----
+- *Reference:* [[https://github.com/fniessen/refcard-org-mode/tree/master][Orgmode ref card @Org]]
 ** PEND Manage Dotfiles with Gitbare :GIT:GITHUB:
 - *OBJECTIVE:* Mange files using a gitbare repo
 - *Reference:* [[https://www.youtube.com/watch?v=tBoLDpTWVOM#__preview][Git Bare Repository @Youtube-DT]]
