@@ -109,7 +109,7 @@ SCHEDULED: <2025-10-14 Tue>
 -----
 - *[NOTE]* taken on [2025-10-14 05:04]: \\
   This is a test note for image =attribute=:
-#+ATTR_HTML: :width 100px
+#+ATTR_HTML: :width 20%
 [[file:https://www.radfordmathematics.com/functions/quadratic-functions-parabola/vertex-form/vertex-form-illustration.png]]
 -----
 - *Reference:* [[https://github.com/fniessen/refcard-org-mode/tree/master][Orgmode ref card @Org]]
