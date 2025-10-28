@@ -5,14 +5,21 @@
 
 * List of Planned Tasks :TASK:PLANNED:PLATFORM:META:
 ** TODO Write Github Actions Workflow :GITHUB:
-DEADLINE: <2025-10-27 Mon>
+DEADLINE: <2025-10-29 Wed>
 :PROPERTIES:
 :ID: ba475a5e-f6b8-44fa-943e-979569b80c4e
 :END:
 - *OBJECTIVE:* Write a =github action= workflow for =note= repo
 - *Reference:* [[https://docs.github.com/en/actions][Github actions workflow @Github]]
 *** TODO Learn Github Actions Syntax
-DEADLINE: <2025-10-28 Tue>
+DEADLINE: <2025-10-29 Wed>
 - *OBJECTIVE:* Learn =github-actions= syntax
 - *Reference:* [[https://docs.github.com/en/actions/tutorials/create-an-example-workflow]]
 - *Visit:* [[id:48441bbc-d7a0-42ff-b590-bcf9497d57ef][Learn yaml Syntax @Org]]
+** TODO Gdrive shareable-link on Github :GDRIVE:GITHUB:
+DEADLINE: <2025-10-29 Wed>
+- *OBJECTIVE:*
+  + Test =gdrive-link= render in =orgmode= on =github=
+  + Consider if =gdrive= is a good place to store =asset=
+- *Visit:* [[id:d429546e-1ada-4fff-b364-4a8743a4643c][Get gdrive shareable link @Org]]
+  

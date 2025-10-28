@@ -26,3 +26,6 @@ Draft items are subjected to change and refile!
 - *Reference:*
   - [[https://github.com/noncog/github-org-mode-hacks][Orgmode github hacks @Github]]
   - [[https://github.com/fniessen/refcard-org-mode][Orgmode Reference Card @Github]]
+** OUTL Github Actions :GITHUB:githubactions:
+/What is github actions and why it is relevant/
+/goto: [[id:2d5fffc1-20cd-45f8-994b-638481352951][A Guide to Git @Org]]/
