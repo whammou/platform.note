@@ -11,7 +11,7 @@ DEADLINE: <2025-10-29 Wed>
 :END:
 - *OBJECTIVE:* Write a =github action= workflow for =note= repo
 - *Reference:* [[https://docs.github.com/en/actions][Github actions workflow @Github]]
-*** TODO Learn Github Actions Syntax
+*** DOIN Learn Github Actions Syntax
 DEADLINE: <2025-10-29 Wed>
 - *OBJECTIVE:* Learn =github-actions= syntax
 - *Reference:* [[https://docs.github.com/en/actions/tutorials/create-an-example-workflow]]

@@ -26,6 +26,19 @@ Draft items are subjected to change and refile!
 - *Reference:*
   - [[https://github.com/noncog/github-org-mode-hacks][Orgmode github hacks @Github]]
   - [[https://github.com/fniessen/refcard-org-mode][Orgmode Reference Card @Github]]
-** OUTL Github Actions :GITHUB:githubactions:
-/What is github actions and why it is relevant/
+** WAIT Github Actions :GITHUB:githubactions:
+DEADLINE: <2025-10-29 Wed>
 /goto: [[id:2d5fffc1-20cd-45f8-994b-638481352951][A Guide to Git @Org]]/
+*Github Actions* is a [[id:0ed7cc0d-f624-4dc3-b186-a7b3818d57f4][Continuous Integration and Continuous Delivery @Org]] platform that allows you to automate =build=, =test=, and =deploy=. You can create workflows that build and test every pull request or deploy merged pull requests to production
+*** OUTL Basic Workflow
+/Create a basic workflow/
+- *Visit:* [[https://docs.github.com/en/actions/tutorials/create-an-example-workflow#creating-an-example-workflow]]
+**** Anatomy of a Workflow File
+/What does a workflow looks like/
+- *Visit:* [[https://docs.github.com/en/actions/tutorials/create-an-example-workflow#understanding-the-workflow-file]]
+
+*** OUTL Reusable Workflow
+/Use the same workflow on different repos/
+- *Visit:* [[https://docs.github.com/en/actions/how-tos/reuse-automations/reuse-workflows#creating-a-reusable-workflow]]
+**** Calling a Reusable Workflow
+/How to call a reusable workflow/
