@@ -27,7 +27,7 @@ Draft items are subjected to change and refile!
   - [[https://github.com/noncog/github-org-mode-hacks][Orgmode github hacks @Github]]
   - [[https://github.com/fniessen/refcard-org-mode][Orgmode Reference Card @Github]]
 ** WAIT Github Actions :GITHUB:githubactions:
-DEADLINE: <2025-10-30 Thu>
+DEADLINE: <2025-10-31 Fri>
 /goto: [[id:2d5fffc1-20cd-45f8-994b-638481352951][A Guide to Git @Org]]/
 *Github Actions* is a [[id:0ed7cc0d-f624-4dc3-b186-a7b3818d57f4][Continuous Integration and Continuous Delivery @Org]] platform that allows you to automate =build=, =test=, and =deploy=. You can create workflows that build and test every pull request or deploy merged pull requests to production
 *** OUTL Basic Workflow
@@ -53,17 +53,65 @@ jobs:
   3. Commit these changes and push them to your Github Repository
 - *Reference:* [[https://docs.github.com/en/actions/tutorials/create-an-example-workflow#creating-an-example-workflow][Example Workflow @Github-doc]]
 **** Anatomy of a Workflow File
-- This is the name of the =workflow= the appears in  the "Actions" tab of the Github repo
++ This is the name of the =workflow= the appears in  the "Actions" tab of the Github repo
   #+BEGIN_SRC yaml
   name: learn-github-actions
   #+END_SRC
-- Optional - The name of the workflow runs generated from the workflow, which will appear in the list of workflow runs on your repository's "Actions" tab
++ Optional - The name of the workflow runs generated from the workflow, which will appear in the list of workflow runs on your repository's "Actions" tab
   #+BEGIN_SRC yaml
   run-name: ${{ github.actor }} is learning Github Actions
   #+END_SRC
-- Specifies the trigger for this =workflow=
++ Specifies the trigger for this =workflow=
   #+BEGIN_SRC yaml
   on: [push]
+  #+END_SRC
++ Groups together all the =jobs= that run in the workflow
+  #+BEGIN_SRC yaml
+  jobs:
+  #+END_SRC
++ Define the job named: =check-bats-version=
+  #+BEGIN_SRC yaml
+  check-bats-version:
+  #+END_SRC
++ Configures the job to run on the latest version of =ubuntu= linux runner. This means that the job will execute on a fresh virtual machine running =ubuntu=
+  #+BEGIN_SRC yaml
+  runs-on: ubuntu-latest
+  #+END_SRC
++ Groups together all the step that run in the =check-bats-version= job
+  #+BEGIN_SRC yaml
+  steps:
+  #+END_SRC
+
+#+NAME:Github Actions Steps
+#+BEGIN_QUOTE markdown
+[!NOTE]
+Each item nested under this section is a separate actions or shell script
+#+END_QUOTE
+
++ This =uses= keyword specifies that this step will run =v4= of the =action/checkout= action. This is an action that checks out you repo onto the runner, allowing you to run script or other actions against your code
+  #+BEGIN_SRC yaml
+  - uses: actions/checkout@v5
+  #+END_SRC
+
+#+NAME:actions/checkout@v5
+#+BEGIN_QUOTE markdown
+[!TIP]
+You should use the checkout action any time your workflow will use the repository's code
+#+END_QUOTE
+
++ This step uses the =actions/setup-node@v4= action to install the specified version of the Node.js. This put both =node= and =npm= commands in your =PATH=
+  #+BEGIN_SRC yaml
+  - uses: actions/setup-node@v4
+    with:
+        node-version: '20'
+  #+END_SRC
++ The =run= keyword tells the job to execute a command on the runner.
+  #+BEGIN_SRC yaml
+  - run: npm install -g bats
+  #+END_SRC
++ Finally, you'll run the =bats= command with a parameter that output the software version
+  #+BEGIN_SRC yaml
+  - runs: bats -v
   #+END_SRC
 
 - *Visit:* [[https://docs.github.com/en/actions/tutorials/create-an-example-workflow#understanding-the-workflow-file]]
