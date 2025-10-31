@@ -138,3 +138,12 @@ You should use the checkout action any time your workflow will use the repositor
 - *Visit:* [[https://docs.github.com/en/actions/how-tos/reuse-automations/reuse-workflows#creating-a-reusable-workflow]]
 **** Calling a Reusable Workflow
 /How to call a reusable workflow/
+**** DONE Reusable Workflow Script
+DEADLINE: <2025-10-31 Fri> CLOSED: [2025-10-31 Fri 21:51]
+:PROPERTIES:
+:ID: 74c9bdcc-d59f-4bc1-849a-55d518f9fad4
+:END:
+There is a limit to =reusable workflow= that relates to the use of script. Specifically, when using the =script= which belongs to the reusable workflow itself. To workaround this limitation
+  1. Embed the script directly on the =workflow= itself (not ideal for debugging)
+  2. Pulling the script directly from the /raw-url/. See: [[https://github.com/orgs/community/discussions/68735#discussioncomment-10481549][Pulling script into Actions @Github-community]]
+  3. Separate script repo. Hosting script on separate repo and clone it into =actions=. See: [[https://github.com/orgs/community/discussions/68735#discussioncomment-12671216][Separate script repository @Github-community]]

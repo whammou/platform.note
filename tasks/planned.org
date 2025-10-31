@@ -44,9 +44,17 @@ DEADLINE: <2025-10-31 Fri>
 - *OBJECTIVE:* Call reusable actions from another repo
 - *Reference:* [[https://travis.media/blog/call-github-actions-workflow-from-another-workflow/][Call Actions workflow in another workflow @Blog]]
 - *Visit:* [[id:2d1569e0-cf62-484a-b64c-bd097471dec7][Call Reusable Actions @Org]]
-**** EXPL Reusable Actions Script
-DEADLINE: <2025-10-31 Fri>
+**** DONE Reusable Actions Script
+DEADLINE: <2025-10-31 Fri> CLOSED: [2025-10-31 Fri 21:49]
 - *OBJECTIVE:* How to write a reusable script for reusable actions
+#+name:LOGBOOK
+#+html:<details><summary>LOGBOOK</summary>
+:LOGBOOK:
+- Note taken on [2025-10-31 Fri 22:08] \\
+  *Issue:* Limitation includes calling script from =usable workflow=
+  *Checkout:* [[id:74c9bdcc-d59f-4bc1-849a-55d518f9fad4][Reusable Workflow Script @Org]]
+:END:
+#+html:</details>
 - *Reference:* [[https://github.com/orgs/community/discussions/68735][Script belongs to reusable repo @Github-doc]]
 ** TODO Gdrive shareable-link on Github :GDRIVE:GITHUB:
 DEADLINE: <2025-10-31 Fri>
