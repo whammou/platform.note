@@ -1,0 +1,14 @@
+:PROPERTIES:
+:ID: 35a8ba1e-3ccb-4875-ac73-be36cb7b87cd
+:END:
+#+TITLE: Github Actions Guide
+
+#+OPTIONS: title:nil tags:nil todo:nil ^:nil f:t num:t pri:nil toc:t
+#+LATEX_HEADER: \renewcommand\maketitle{} \usepackage[scaled]{helvet} \renewcommand\familydefault{\sfdefault}
+#+TODO: TODO(t) (e) DOING(d) PEND(p) OUTL(o) RESEARCH(s) FEEDBACK(b) WAITING(w) NEXT(n) | IDEA(i) ABORTED(a) PARTIAL(r) REVIEW(v) DONE(f)
+#+FILETAGS: :DOC:META:GIT:githubactions:
+#+HTML:<details>
+
+* Github Actions Guide :DOC:META:GIT:githubactions:
+#+HTML:</details>
+
