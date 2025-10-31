@@ -7,12 +7,12 @@
 ** DOIN Write Github Actions Workflow :GITHUB:githubactions:
 DEADLINE: <2025-10-31 Fri>
 :PROPERTIES:
-:ID: ba475a5e-f6b8-44fa-943e-979569b80c4e
+:ID:       ba475a5e-f6b8-44fa-943e-979569b80c4e
 :END:
 - *OBJECTIVE:* Write a =github action= workflow for =note= repo
 - *Reference:* [[https://docs.github.com/en/actions][Github actions workflow @Github]]
 *** DONE Learn Github Actions Syntax
-DEADLINE: <2025-10-30 Thu> CLOSED: [2025-10-30 Thu 20:48]
+CLOSED: [2025-10-30 Thu 20:48] DEADLINE: <2025-10-30 Thu>
 - *OBJECTIVE:* Learn =github-actions= syntax
 -----
 - Note taken on [2025-10-30 20:48]: \\
@@ -23,7 +23,7 @@ DEADLINE: <2025-10-30 Thu> CLOSED: [2025-10-30 Thu 20:48]
 *** EXPL Run Github Actions Script
 DEADLINE: <2025-10-31 Fri>
 :PROPERTIES:
-:ID: 3e9e519b-035b-454e-8ce3-22f796933880
+:ID:       3e9e519b-035b-454e-8ce3-22f796933880
 :END:
 - *OBJECTIVE:* Run script in a github actions =workflow=
 - *Reference:* [[https://docs.github.com/en/actions/how-tos/write-workflows/choose-what-workflows-do/add-scripts][Adding script to workflow @Github-doc]]
@@ -31,7 +31,7 @@ DEADLINE: <2025-10-31 Fri>
 *** EXPL Schedule Github Actions
 DEADLINE: <2025-10-31 Fri>
 :PROPERTIES:
-:ID: 09800ba3-370b-4273-9153-ad22766103ae
+:ID:       09800ba3-370b-4273-9153-ad22766103ae
 :END:
 - *OBJECTIVE:* Schedule =actions= run time
 - *Reference:* [[https://cicube.io/blog/github-actions-cron/][Github Actions with cron @Blog]]
@@ -39,15 +39,18 @@ DEADLINE: <2025-10-31 Fri>
 *** EXPL Call Reusable Actions
 DEADLINE: <2025-10-31 Fri>
 :PROPERTIES:
-:ID: 2d1569e0-cf62-484a-b64c-bd097471dec7
+:ID:       2d1569e0-cf62-484a-b64c-bd097471dec7
 :END:
 - *OBJECTIVE:* Call reusable actions from another repo
 - *Reference:* [[https://travis.media/blog/call-github-actions-workflow-from-another-workflow/][Call Actions workflow in another workflow @Blog]]
 - *Visit:* [[id:2d1569e0-cf62-484a-b64c-bd097471dec7][Call Reusable Actions @Org]]
+**** EXPL Reusable Actions Script
+DEADLINE: <2025-10-31 Fri>
+- *OBJECTIVE:* How to write a reusable script for reusable actions
+- *Reference:* [[https://github.com/orgs/community/discussions/68735][Script belongs to reusable repo @Github-doc]]
 ** TODO Gdrive shareable-link on Github :GDRIVE:GITHUB:
 DEADLINE: <2025-10-31 Fri>
 - *OBJECTIVE:*
   + Test =gdrive-link= render in =orgmode= on =github=
   + Consider if =gdrive= is a good place to store =asset=
 - *Visit:* [[id:d429546e-1ada-4fff-b364-4a8743a4643c][Get gdrive shareable link @Org]]
-  
