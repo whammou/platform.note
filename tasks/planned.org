@@ -51,8 +51,8 @@ DEADLINE: <2025-10-31 Fri> CLOSED: [2025-10-31 Fri 21:49]
 #+html:<details><summary>LOGBOOK</summary>
 :LOGBOOK:
 - Note taken on [2025-10-31 Fri 22:08] \\
-  *Issue:* Limitation includes calling script from =usable workflow=
-  *Checkout:* [[id:74c9bdcc-d59f-4bc1-849a-55d518f9fad4][Reusable Workflow Script @Org]]
+  + *Issue:* Limitation includes calling script from =usable workflow=
+  + *Checkout:* [[id:74c9bdcc-d59f-4bc1-849a-55d518f9fad4][Reusable Workflow Script @Org]]
 :END:
 #+html:</details>
 - *Reference:* [[https://github.com/orgs/community/discussions/68735][Script belongs to reusable repo @Github-doc]]
