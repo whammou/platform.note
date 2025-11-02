@@ -4,7 +4,7 @@
 #+TITLE: Platform Planned Tasks
 
 * List of Planned Tasks :TASK:PLANNED:PLATFORM:META:
-** DOIN Write Github Actions Workflow :GITHUB:githubactions:
+** NEXT Write Github Actions Workflow :GITHUB:githubactions:
 DEADLINE: <2025-11-02 Sun>
 :PROPERTIES:
 :ID:       ba475a5e-f6b8-44fa-943e-979569b80c4e
