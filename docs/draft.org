@@ -27,7 +27,7 @@ Draft items are subjected to change and refile!
   - [[https://github.com/noncog/github-org-mode-hacks][Orgmode github hacks @Github]]
   - [[https://github.com/fniessen/refcard-org-mode][Orgmode Reference Card @Github]]
 ** WAIT Github Actions :GITHUB:githubactions:
-DEADLINE: <2025-11-01 Sat>
+DEADLINE: <2025-11-02 Sun>
 /goto: [[id:2d5fffc1-20cd-45f8-994b-638481352951][A Guide to Git @Org]]/
 *Github Actions* is a [[id:0ed7cc0d-f624-4dc3-b186-a7b3818d57f4][Continuous Integration and Continuous Delivery @Org]] platform that allows you to automate =build=, =test=, and =deploy=. You can create workflows that build and test every pull request or deploy merged pull requests to production
 *** OUTL Github Actions Basic Workflow
