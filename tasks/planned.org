@@ -5,7 +5,7 @@
 
 * List of Planned Tasks :TASK:PLANNED:PLATFORM:META:
 ** NEXT Write Github Actions Workflow :GITHUB:githubactions:
-DEADLINE: <2025-11-05 Wed>
+DEADLINE: <2025-11-06 Thu>
 :PROPERTIES:
 :ID:       ba475a5e-f6b8-44fa-943e-979569b80c4e
 :END:
@@ -21,7 +21,7 @@ CLOSED: [2025-10-30 Thu 20:48] DEADLINE: <2025-10-30 Thu>
 - *Reference:* [[https://docs.github.com/en/actions/tutorials/create-an-example-workflow]]
 - *Visit:* [[id:eaa374cf-cc90-40a7-b151-c23968cd7c69][Github Actions Basic Workflow @Org]]
 *** EXPL Run Github Actions Script
-DEADLINE: <2025-11-05 Wed>
+DEADLINE: <2025-11-06 Thu>
 :PROPERTIES:
 :ID:       3e9e519b-035b-454e-8ce3-22f796933880
 :END:
@@ -29,7 +29,7 @@ DEADLINE: <2025-11-05 Wed>
 - *Reference:* [[https://docs.github.com/en/actions/how-tos/write-workflows/choose-what-workflows-do/add-scripts][Adding script to workflow @Github-doc]]
 - *Visit:* [[id:cdd00540-67f5-4480-9c4f-32807ad84962][Github Actions Script @Org]]
 *** EXPL Schedule Github Actions
-DEADLINE: <2025-11-05 Wed>
+DEADLINE: <2025-11-06 Thu>
 :PROPERTIES:
 :ID:       09800ba3-370b-4273-9153-ad22766103ae
 :END:
@@ -37,7 +37,7 @@ DEADLINE: <2025-11-05 Wed>
 - *Reference:* [[https://cicube.io/blog/github-actions-cron/][Github Actions with cron @Blog]]
 - *Visit:* [[id:203629f4-5a10-48ec-afb6-01fdfa6d71f4][Schedule Github Actions @Org]]
 *** EXPL Call Reusable Actions
-DEADLINE: <2025-11-05 Wed>
+DEADLINE: <2025-11-06 Thu>
 :PROPERTIES:
 :ID:       2d1569e0-cf62-484a-b64c-bd097471dec7
 :END:
@@ -57,7 +57,7 @@ DEADLINE: <2025-10-31 Fri> CLOSED: [2025-10-31 Fri 21:49]
 #+html:</details>
 - *Reference:* [[https://github.com/orgs/community/discussions/68735][Script belongs to reusable repo @Github-doc]]
 ** TODO Gdrive shareable-link on Github :GDRIVE:GITHUB:
-DEADLINE: <2025-11-05 Wed>
+DEADLINE: <2025-11-06 Thu>
 - *OBJECTIVE:*
   + Test =gdrive-link= render in =orgmode= on =github=
   + Consider if =gdrive= is a good place to store =asset=
