@@ -118,4 +118,16 @@ SCHEDULED: <2025-10-14 Tue> CLOSED: [2025-10-14 Tue 06:04]
 ** PEND Manage Dotfiles with Gitbare :GIT:GITHUB:
 - *OBJECTIVE:* Mange files using a gitbare repo
 - *Reference:* [[https://www.youtube.com/watch?v=tBoLDpTWVOM#__preview][Git Bare Repository @Youtube-DT]]
-  
+** DONE Find a Suitable Search Engine :SEARCHENGINE:
+DEADLINE: <2025-11-26 Wed 12:30> CLOSED: [2025-11-26 Wed 04:36]
+#+name:LOGBOOK
+#+html:<details><summary>LOGBOOK</summary>
+:LOGBOOK:
+- Note taken on [2025-11-26 Wed 04:36] \\
+  =searxng= support both /internal/ and /external/ redirect along with many more customizable =categories= and variety of syntax support
+:END:
+#+html:</details>
+- *OBJECTIVE:* Find a more suitable search engine than =google=
+*** TODO Config SearXNG :SEARXNG:
+DEADLINE: <2025-11-26 Wed 12:30>
+- *OBJECTIVE:* Learn =syntax= and config =searxng=
