@@ -128,6 +128,6 @@ DEADLINE: <2025-11-26 Wed 12:30> CLOSED: [2025-11-26 Wed 04:36]
 :END:
 #+html:</details>
 - *OBJECTIVE:* Find a more suitable search engine than =google=
-*** TODO Config SearXNG :SEARXNG:
-DEADLINE: <2025-11-27 Thu 12:30>
+*** DONE Config SearXNG :SEARXNG:
+DEADLINE: <2025-11-27 Thu 12:30> CLOSED: [2025-11-27 Thu 20:46]
 - *OBJECTIVE:* Learn =syntax= and config =searxng=
