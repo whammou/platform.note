@@ -16,7 +16,7 @@ Draft items are subjected to change and refile!
 #+END_QUOTE
 ** OUTL Orgmode github hacks :ORGMODE:GITHUB:
 :PROPERTIES:
-:ID: efbdb9d4-436c-4736-b29f-d85d8c4263c7
+:ID:       efbdb9d4-436c-4736-b29f-d85d8c4263c7
 :END:
 - A curated list of hacks and tricks when exporting an =org= file or when render on github
 -----
@@ -27,12 +27,12 @@ Draft items are subjected to change and refile!
   - [[https://github.com/noncog/github-org-mode-hacks][Orgmode github hacks @Github]]
   - [[https://github.com/fniessen/refcard-org-mode][Orgmode Reference Card @Github]]
 ** WAIT Github Actions :GITHUB:githubactions:
-DEADLINE: <2025-12-11 Thu>
+DEADLINE: <2025-12-12 Fri>
 /goto: [[id:2d5fffc1-20cd-45f8-994b-638481352951][A Guide to Git @Org]]/
 *Github Actions* is a [[id:0ed7cc0d-f624-4dc3-b186-a7b3818d57f4][Continuous Integration and Continuous Delivery @Org]] platform that allows you to automate =build=, =test=, and =deploy=. You can create workflows that build and test every pull request or deploy merged pull requests to production
 *** OUTL Github Actions Basic Workflow
 :PROPERTIES:
-:ID: eaa374cf-cc90-40a7-b151-c23968cd7c69
+:ID:       eaa374cf-cc90-40a7-b151-c23968cd7c69
 :END:
 Github actions uses =yaml= syntax to define the workflow. Each workflow is stored as separate YAML file in your code repository, in directory =.github/workflows=
   1. In your repository, create the =.github/workflows= dir to store =workflow= files
@@ -118,30 +118,28 @@ You should use the checkout action any time your workflow will use the repositor
   #+END_SRC
 
 - *Visit:* [[https://docs.github.com/en/actions/tutorials/create-an-example-workflow#understanding-the-workflow-file]]
-
 *** OUTL Github Actions Script
 :PROPERTIES:
-:ID: cdd00540-67f5-4480-9c4f-32807ad84962
+:ID:       cdd00540-67f5-4480-9c4f-32807ad84962
 :END:
 /How to run scrip in a =workflow= of =github actions=/
-
 *** OUTL Schedule Github Actions
 :PROPERTIES:
-:ID: 203629f4-5a10-48ec-afb6-01fdfa6d71f4
+:ID:       203629f4-5a10-48ec-afb6-01fdfa6d71f4
 :END:
 /Schedule job with =cron= on a specific date/
 *** OUTL Reusable Workflow
 :PROPERTIES:
-:ID: 0aced2d1-bba2-4bfe-9b57-dcda56303803
+:ID:       0aced2d1-bba2-4bfe-9b57-dcda56303803
 :END:
 /Use the same workflow on different repos/
 - *Visit:* [[https://docs.github.com/en/actions/how-tos/reuse-automations/reuse-workflows#creating-a-reusable-workflow]]
 **** Calling a Reusable Workflow
 /How to call a reusable workflow/
 **** DONE Reusable Workflow Script
-DEADLINE: <2025-10-31 Fri> CLOSED: [2025-10-31 Fri 21:51]
+CLOSED: [2025-10-31 Fri 21:51] DEADLINE: <2025-10-31 Fri>
 :PROPERTIES:
-:ID: 74c9bdcc-d59f-4bc1-849a-55d518f9fad4
+:ID:       74c9bdcc-d59f-4bc1-849a-55d518f9fad4
 :END:
 There is a limit to =reusable workflow= that relates to the use of script. Specifically, when using the =script= which belongs to the reusable workflow itself. To workaround this limitation
   1. Embed the script directly on the =workflow= itself (not ideal for debugging)
