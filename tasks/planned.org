@@ -41,7 +41,7 @@ CLOSED: [2025-10-30 Thu 20:48] DEADLINE: <2025-10-30 Thu>
 - *Reference:* [[https://travis.media/blog/call-github-actions-workflow-from-another-workflow/][Call Actions workflow in another workflow @Blog]]
 - *Visit:* [[id:2d1569e0-cf62-484a-b64c-bd097471dec7][Call Reusable Actions @Org]]
 **** DONE Reusable Actions Script
-DEADLINE: <2025-10-31 Fri> CLOSED: [2025-10-31 Fri 21:49]
+CLOSED: [2025-10-31 Fri 21:49] DEADLINE: <2025-10-31 Fri>
 - *OBJECTIVE:* How to write a reusable script for reusable actions
 #+name:LOGBOOK
 #+html:<details><summary>LOGBOOK</summary>
@@ -58,7 +58,7 @@ DEADLINE: <2025-10-31 Fri> CLOSED: [2025-10-31 Fri 21:49]
   + Consider if =gdrive= is a good place to store =asset=
 - *Visit:* [[id:d429546e-1ada-4fff-b364-4a8743a4643c][Get gdrive shareable link @Org]]
 ** EXPL Managing Secrets on Github :GITHUB:credentialmanagement:
-DEADLINE: <2025-12-15 Mon>
+DEADLINE: <2025-12-16 Tue>
 - *OBJECTIVE:* Storing =secrets= on my =dotfiles=
 - *Check-out:* [[id:ccac12ba-197b-4bfc-a022-fdc074922ee2][Storing secrets in git @Org]]
 *** Secrets Management Solutions
