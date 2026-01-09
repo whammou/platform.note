@@ -1,7 +1,6 @@
 #+TODO: TODO(t) (e) DOIN(d) PEND(p) OUTL(o) EXPL(x) FDBK(b) WAIT(w) NEXT(n) IDEA(i) | ABRT(a) PRTL(r) RVIW(v) DONE(f)
 #+LATEX_HEADER: \usepackage[scaled]{helvet} \renewcommand\familydefault{\sfdefault}
 #+OPTIONS: todo:t tags:nil tasks:t ^:nil toc:nil
-This is a write test on =wayland= with minimal load compare to =x11=
 #+TITLE: Platform Planned Tasks
 
 * List of Planned Tasks :TASK:PLANNED:PLATFORM:META:
@@ -82,8 +81,15 @@ DEADLINE: <2026-01-09 Fri>
   + This test looks fine on =nvim-orgmode=
   Here is a test: \( a \) $$a$$ \\
 
+
+  \[
+  x + 2 =3
+  \]
+
+
   This line contains inline math with double empty line: $$x_2^3 + \int \frac{x_2^3}{x_3^1}\,dx$$
 \\
+
   #+BEGIN_SRC math
   x_2^3 + \int \frac{x_2^3}{x_3^1}\,dx
   #+END_SRC
