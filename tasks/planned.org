@@ -80,7 +80,7 @@ DEADLINE: <2026-01-09 Fri>
 *** Testing Math Syntax on Github
 - *OBJECTIVE:* Testing the math rendering syntax on =Github=
   + This test looks fine on =nvim-orgmode=
-  Here is a test: \( a \)
+  Here is a test: \( a \) $$a$$
 
 
   \[
