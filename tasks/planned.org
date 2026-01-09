@@ -82,6 +82,6 @@ DEADLINE: <2026-01-09 Fri>
   Here is a test: \( a \) \\
   This line contains inline math equation: \\
   This line paragraph contains math block \\
-  #+BEGIN_SRC math
+  $$
   x_2^3 + \int \frac{x_2^3}{x_3^1}\,dx
-  #+END_SRC
+  $$
