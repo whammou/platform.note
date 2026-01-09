@@ -76,12 +76,11 @@ DEADLINE: <2026-01-09 Fri>
 - *Reference:*
   + [[https://github.com/nvim-orgmode/orgmode/pull/1059][Support for inline math @Github-issue]]
   + [[https://github.com/folke/snacks.nvim/blob/main/docs/image.md][Snack image config @Github]]
-    
 *** Testing Math Syntax on Github
 - *OBJECTIVE:* Testing the math rendering syntax on =Github=
   + This test looks fine on =nvim-orgmode=
   Here is a test: \( a \) $$a$$
-
+  This line contains inline math equation: $$x_2^3 + \int \frac{x_2^3}{x_3^1}\,dx$$
 
   \[
   x + 2 = 3
