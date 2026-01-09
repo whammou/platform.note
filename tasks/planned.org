@@ -80,8 +80,8 @@ DEADLINE: <2026-01-09 Fri>
 - *OBJECTIVE:* Testing the math rendering syntax on =Github=
   + This test looks fine on =nvim-orgmode=
   Here is a test: \( a \) $$a$$ \\
-  This line contains inline math equation: $$x_2^3 + \int \frac{x_2^3}{x_3^1}\,dx$$
-  This line paragraph contains math block
+  This line contains inline math equation: $$x_2^3 + \int \frac{x_2^3}{x_3^1}\,dx$$ \\
+  This line paragraph contains math block \\
   #+BEGIN_SRC math
   x_2^3 + \int \frac{x_2^3}{x_3^1}\,dx
   #+END_SRC
