@@ -88,5 +88,5 @@ DEADLINE: <2026-01-09 Fri>
   \]
 
   #+BEGIN_SRC math
-  \LaTeX
+  x_2^3 + \int \frac{x_2^3}{x_3^1}\,dx
   #+END_SRC
