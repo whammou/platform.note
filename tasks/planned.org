@@ -80,11 +80,9 @@ DEADLINE: <2026-01-09 Fri>
 *** Testing Math Syntax on Github
 - *OBJECTIVE:* Testing the math rendering syntax on =Github=
   + This test looks fine on =nvim-orgmode=
-  Here is a test: \( a \) $$a$$
+  Here is a test: \( a \) $$a$$ \\
 
-
-  This line contains inline math with double empty line: $$x_2^3 + \int \frac{x_2^3}{x_3^1}\,dx$$
-
+  This line contains inline math with double empty line: $$x_2^3 + \int \frac{x_2^3}{x_3^1}\,dx$$ \\
 
   #+BEGIN_SRC math
   x_2^3 + \int \frac{x_2^3}{x_3^1}\,dx
