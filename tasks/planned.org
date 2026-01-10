@@ -79,13 +79,11 @@ DEADLINE: <2026-01-09 Fri>
 - *OBJECTIVE:* Testing the math rendering syntax on =Github=
   + This test looks fine on =nvim-orgmode=
   Here is a test: \( a \) $$a$$ \\
-
-
+\\
   \[
   x + 2 =3
   \]
-
-
+\\
   This line contains inline math with double empty line: $$x_2^3 + \int \frac{x_2^3}{x_3^1}\,dx$$
 \\
 
