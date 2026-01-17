@@ -58,19 +58,19 @@ CLOSED: [2025-10-31 Fri 21:49] DEADLINE: <2025-10-31 Fri>
   + Consider if =gdrive= is a good place to store =asset=
 - *Visit:* [[id:d429546e-1ada-4fff-b364-4a8743a4643c][Get gdrive shareable link @Org]]
 ** EXPL Managing Secrets on Github :GITHUB:credentialmanagement:
-DEADLINE: <2026-01-17 Sat>
+DEADLINE: <2026-01-18 Sun>
 - *OBJECTIVE:* Storing =secrets= on my =dotfiles=
 - *Check-out:* [[id:ccac12ba-197b-4bfc-a022-fdc074922ee2][Storing secrets in git @Org]]
 *** Secrets Management Solutions
 - *OBJECTIVE:* Learning =gpg= and =mozilla-sops=
 ** PEND Config subdomains with nginx and ddns :DNS:NGINX:
 :PROPERTIES:
-:ID: 43693aba-4b6e-4b8e-952e-9e0fd702881e
+:ID:       43693aba-4b6e-4b8e-952e-9e0fd702881e
 :END:
 - *OBJECTIVE:* Config subdomain using =nginx= and =ddns= (e.g. =noip.com=)
 - *Reference:* [[https://superuser.com/questions/1569596/how-do-i-configure-subdomains-with-nginx-and-ddns][Config subdomain with nginx and ddns @Overflow]]
 ** DONE Uniform Latex Block on Github and in Orgmode :GITHUB:ORGMODE:mathrender:
-DEADLINE: <2026-01-13 Tue> CLOSED: [2026-01-13 Tue 14:44]
+CLOSED: [2026-01-13 Tue 14:44] DEADLINE: <2026-01-13 Tue>
 #+name:LOGBOOK
 #+html:<details><summary>LOGBOOK</summary>
 :LOGBOOK:
@@ -83,7 +83,7 @@ DEADLINE: <2026-01-13 Tue> CLOSED: [2026-01-13 Tue 14:44]
   + [[https://github.com/nvim-orgmode/orgmode/pull/1059][Support for inline math @Github-issue]]
   + [[https://github.com/folke/snacks.nvim/blob/main/docs/image.md][Snack image config @Github]]
 *** DONE Testing Math Syntax on Github
-DEADLINE: <2026-01-13 Tue> CLOSED: [2026-01-13 Tue 14:44]
+CLOSED: [2026-01-13 Tue 14:44] DEADLINE: <2026-01-13 Tue>
 - *OBJECTIVE:* Testing the math rendering syntax on =Github=
   + This test looks fine on =nvim-orgmode=
   Here is a test: \( a \) $$a$$
