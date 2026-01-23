@@ -90,7 +90,7 @@ CLOSED: [2025-07-29 Tue 22:24] DEADLINE: <2025-07-29 Tue>
 ** PEND Initialize github.io :GITHUB:PKM:
 - *OBJECTIVE:* Create a functional github.io page for hosting my =PKM=
 - *Reference:* [[https://docs.github.com/en/pages/quickstart#creating-your-website][Create your website @Github-doc]]
-** DONE Testing image render :ORGMODE:ORGZlY:GITHUB:
+** DONE Testing image render :ORGMODE:ORGZlY:GITHUB:mathrender:
 DEADLINE: <2025-10-14 Tue> CLOSED: [2025-10-14 Tue 06:05]
 - *OBJECTIVE:* Find an image syntax that works on both github and orgzly
 -----
@@ -114,6 +114,13 @@ SCHEDULED: <2025-10-14 Tue> CLOSED: [2025-10-14 Tue 06:04]
   #+html:</p>
     + =wallyqs/org-ruby= does not support =#+ATTR_HTML= attribute
 -----
+
+#+begin_html html
+<p align='left'>
+<img src='https://www.radfordmathematics.com/functions/quadratic-functions-parabola/vertex-form/vertex-form-illustration.png' width=50%/>
+</p>
+#+end_html
+
 - *Reference:* [[https://github.com/fniessen/refcard-org-mode/tree/master][Orgmode ref card @Org]]
 ** PEND Manage Dotfiles with Gitbare :GIT:GITHUB:
 - *OBJECTIVE:* Mange files using a gitbare repo
