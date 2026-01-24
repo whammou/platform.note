@@ -115,6 +115,8 @@ SCHEDULED: <2025-10-14 Tue> CLOSED: [2025-10-14 Tue 06:04]
     + =wallyqs/org-ruby= does not support =#+ATTR_HTML= attribute
 -----
 
+[[file:https://www.radfordmathematics.com/functions/quadratic-functions-parabola/vertex-form/vertex-form-illustration.png]]
+
 #+begin_html html
 <p align='left'>
 <img src='https://www.radfordmathematics.com/functions/quadratic-functions-parabola/vertex-form/vertex-form-illustration.png' style='width:50%;'/>
