@@ -90,8 +90,8 @@ CLOSED: [2025-07-29 Tue 22:24] DEADLINE: <2025-07-29 Tue>
 ** PEND Initialize github.io :GITHUB:PKM:
 - *OBJECTIVE:* Create a functional github.io page for hosting my =PKM=
 - *Reference:* [[https://docs.github.com/en/pages/quickstart#creating-your-website][Create your website @Github-doc]]
-** DONE Testing image render :ORGMODE:ORGZlY:GITHUB:mathrender:
-DEADLINE: <2025-10-14 Tue> CLOSED: [2025-10-14 Tue 06:05]
+** DOIN Testing image render :ORGMODE:ORGZlY:GITHUB:mathrender:
+DEADLINE: <2026-01-24 Sat>
 - *OBJECTIVE:* Find an image syntax that works on both github and orgzly
 -----
 - *[NOTE]* taken on [2025-09-06 20:17]: \\
@@ -103,8 +103,8 @@ DEADLINE: <2025-10-14 Tue> CLOSED: [2025-10-14 Tue 06:05]
     #+END_SRC
   + Exclude root dir from filepath with =vim.gsub= to obtain a relative dir to target =asset=
 -----
-*** ABRT Github org-parse Images
-SCHEDULED: <2025-10-14 Tue> CLOSED: [2025-10-14 Tue 06:04]
+*** EXPL Github org-parse Images
+SCHEDULED: <2025-10-14 Tue> DEADLINE: <2026-01-24 Sat>
 - *OBJECTIVE:* Testing if =org-ruby= parser on github render images with =attributes=
 -----
 - *[NOTE]* taken on [2025-10-14 05:04]: \\
