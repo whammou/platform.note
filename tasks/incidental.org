@@ -4,7 +4,7 @@
 #+TITLE: Platform Incidental Tasks
 
 * List of Incidental Tasks :TASK:INCIDENTAL:PLATFORM:META:
-** TODO Unify Resource Path :PANDOC:GITHUB:ORGMODE:
+** TODO [#A] Unify Resource Path :PANDOC:GITHUB:ORGMODE:
 DEADLINE: <2026-01-28 Wed>
 - *OBJECTIVE:*  Get Parser to agree on the same =resource-path= or =resource-link=
 - *Reference:*
