@@ -17,8 +17,13 @@ DEADLINE: <2026-01-28 Wed> CLOSED: [2026-01-28 Wed 17:10]
 - *Reference:*
   + [[https://github.com/jgm/pandoc/issues/3752][Relative image working directory @Github-pandoc-issue]]
   + [[shell:man 1 pandoc][Pandoc man page @Manpage]]
-** TODO Testing Inline Math Render :GITHUB:PANDOC:
+** TODO Testing Inline Math Render :GITHUB:PANDOC:mathrender:
 DEADLINE: <2026-01-31 Sat>
+- Note taken on [2026-01-31 Sat 17:53] \\
+  This is a test: \\
+  Inline mode $x^2 = x - 3$ \\
+  Display Mode: \\
+  $$\lim{x->0}{x^2 -x + 3}$$
 - *OBJECTIVE:*  Testing =$= inline math render correctly by =pandoc=
 *** NEXT Create Nvim-orgmode Issue :ORGMODE:
 DEADLINE: <2026-01-31 Sat>
