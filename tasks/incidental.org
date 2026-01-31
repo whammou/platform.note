@@ -17,4 +17,10 @@ DEADLINE: <2026-01-28 Wed> CLOSED: [2026-01-28 Wed 17:10]
 - *Reference:*
   + [[https://github.com/jgm/pandoc/issues/3752][Relative image working directory @Github-pandoc-issue]]
   + [[shell:man 1 pandoc][Pandoc man page @Manpage]]
-    
+** TODO Testing Inline Math Render :GITHUB:PANDOC:
+DEADLINE: <2026-01-31 Sat>
+- *OBJECTIVE:*  Testing =$= inline math render correctly by =pandoc=
+*** NEXT Create Nvim-orgmode Issue :ORGMODE:
+DEADLINE: <2026-01-31 Sat>
+- *OBJECTIVE:*  Request =$= inline math feature on repo =nvim-orgmode=
+- *Reference:*  [[https://github.com/nvim-orgmode/orgmode/pull/1059][Nvim-orgmode Inline Math @Github-issue]]
