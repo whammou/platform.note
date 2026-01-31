@@ -28,7 +28,7 @@ DEADLINE: <2026-01-31 Sat> CLOSED: [2026-01-31 Sat 18:01]
 #+html:</details>
 - Note taken on [2026-01-31 Sat 17:53] \\
   This is a test: \\
-  Inline mode $x^2 = x - 3$ \\
+  Inline mode $x^2 = x - 3$  $$x^2 = x - 3 $$
   Display Mode: \\
   $$\lim_{x->0}{x^2 -x + 3}$$
 - *OBJECTIVE:*  Testing =$= inline math render correctly by =pandoc=
