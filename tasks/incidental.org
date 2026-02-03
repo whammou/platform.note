@@ -35,7 +35,7 @@ DEADLINE: <2026-01-31 Sat> CLOSED: [2026-01-31 Sat 18:01]
 
   $$\lim_{x \to 0}{x^2 -x + 3}$$
 - *OBJECTIVE:*  Testing =$= inline math render correctly by =pandoc=
-*** NEXT Create Nvim-orgmode Issue :ORGMODE:
-DEADLINE: <2026-02-02 Mon>
+*** DONE Create Nvim-orgmode Issue :ORGMODE:
+DEADLINE: <2026-02-03 Tue> CLOSED: [2026-02-03 Tue 07:16]
 - *OBJECTIVE:*  Request =$= inline math feature on repo =nvim-orgmode=
 - *Reference:*  [[https://github.com/nvim-orgmode/orgmode/pull/1059][Nvim-orgmode Inline Math @Github-issue]]
