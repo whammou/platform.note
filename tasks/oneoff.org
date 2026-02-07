@@ -148,3 +148,17 @@ CLOSED: [2025-11-27 Thu 20:46] DEADLINE: <2025-11-27 Thu 12:30>
 ** TODO Change Keyword Palette :ORGMODE:UI:
 DEADLINE: <2026-02-08 Sun>
 - *OBJECTIVE:* Update color palette for orgmode keywords
+** TODO Testing Mermaid Render on Github :GITHUB:ORGMODE:MERMAID:
+DEADLINE: <2026-02-08 Sun>
+:PROPERTIES:
+:ID: d4fc0bcb-69b8-4dc2-ac79-789bf38c1906
+:END:
+- *OBJECTIVE:*  Testing =mermaid= render on =github= using =orgmode=
+- *Reference:*  [[https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/creating-diagrams][Github creating diagram @Github-doc]]
+#+BEGIN_MERMAID
+graph TD;
+    A-->B;
+    A-->C;
+    B-->D;
+    C-->D;
+#+END_MERMAID
