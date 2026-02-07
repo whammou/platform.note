@@ -58,7 +58,7 @@ CLOSED: [2025-10-31 Fri 21:49] DEADLINE: <2025-10-31 Fri>
   + Consider if =gdrive= is a good place to store =asset=
 - *Visit:* [[id:d429546e-1ada-4fff-b364-4a8743a4643c][Get gdrive shareable link @Org]]
 ** EXPL Managing Secrets on Github :GITHUB:credentialmanagement:
-DEADLINE: <2026-02-07 Sat>
+DEADLINE: <2026-02-08 Sun>
 - *OBJECTIVE:* Storing =secrets= on my =dotfiles=
 - *Check-out:* [[id:ccac12ba-197b-4bfc-a022-fdc074922ee2][Storing secrets in git @Org]]
 *** Secrets Management Solutions

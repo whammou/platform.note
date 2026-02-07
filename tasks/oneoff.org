@@ -146,5 +146,5 @@ CLOSED: [2025-11-26 Wed 04:36] DEADLINE: <2025-11-26 Wed 12:30>
 CLOSED: [2025-11-27 Thu 20:46] DEADLINE: <2025-11-27 Thu 12:30>
 - *OBJECTIVE:* Learn =syntax= and config =searxng=
 ** TODO Change Keyword Palette :ORGMODE:UI:
-DEADLINE: <2026-02-07 Sat>
+DEADLINE: <2026-02-08 Sun>
 - *OBJECTIVE:* Update color palette for orgmode keywords
