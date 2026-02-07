@@ -162,3 +162,11 @@ graph TD;
     B-->D;
     C-->D;
 #+END_MERMAID
+
+#+begin_mermaid
+graph TD;
+    A-->B;
+    A-->C;
+    B-->D;
+    C-->D;
+#+end_mermaid
