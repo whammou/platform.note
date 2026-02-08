@@ -19,6 +19,9 @@ DEADLINE: <2026-01-28 Wed> CLOSED: [2026-01-28 Wed 17:10]
   + [[shell:man 1 pandoc][Pandoc man page @Manpage]]
 ** DONE Testing Inline Math Render :GITHUB:PANDOC:mathrender:
 DEADLINE: <2026-01-31 Sat> CLOSED: [2026-01-31 Sat 18:01]
+:PROPERTIES:
+:ID: 6281ae01-c59e-4476-9c9d-d81d0c14b4e0
+:END:
 #+name:LOGBOOK
 #+html:<details><summary>LOGBOOK</summary>
 :LOGBOOK:
@@ -29,7 +32,7 @@ DEADLINE: <2026-01-31 Sat> CLOSED: [2026-01-31 Sat 18:01]
 - Note taken on [2026-01-31 Sat 17:53] \\
   This is a test:
 
-  Inline mode $$\lim_{x \to 1}x^2 = x - 3$$
+  Inline mode $$\lim_{x \to 1}x^2 = x - 3$$ 
 
   Display Mode:
 
