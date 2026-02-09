@@ -146,7 +146,7 @@ CLOSED: [2025-11-26 Wed 04:36] DEADLINE: <2025-11-26 Wed 12:30>
 CLOSED: [2025-11-27 Thu 20:46] DEADLINE: <2025-11-27 Thu 12:30>
 - *OBJECTIVE:* Learn =syntax= and config =searxng=
 ** TODO Change Keyword Palette :ORGMODE:UI:
-DEADLINE: <2026-02-09 Mon>
+DEADLINE: <2026-02-11 Wed>
 - *OBJECTIVE:* Update color palette for orgmode keywords
 ** ABRT Testing Mermaid Render on Github :GITHUB:ORGMODE:MERMAID:
 DEADLINE: <2026-02-08 Sun> CLOSED: [2026-02-08 Sun 03:27]
