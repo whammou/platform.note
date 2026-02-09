@@ -106,4 +106,4 @@ DEADLINE: <2026-02-09 Mon>
 :ID: f7d2e03d-db00-4afd-8eaf-fd914aff5c16
 :END:
 - *OBJECTIVE:*  Create a github template =repository=
-- *Reference:*  [[https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-template-repository][Creating a template repository @Org]]
+- *Reference:*  [[https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-template-repository][Creating a template repository @Github-doc]]
