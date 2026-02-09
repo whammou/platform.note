@@ -100,3 +100,10 @@ CLOSED: [2026-01-13 Tue 14:44] DEADLINE: <2026-01-13 Tue>
   #+BEGIN_SRC math
   x_2^3 + \int \frac{x_2^3}{x_3^1}\,dx
   #+END_SRC
+** TODO Create Template Repository :GITHUB:
+DEADLINE: <2026-02-09 Mon>
+:PROPERTIES:
+:ID: f7d2e03d-db00-4afd-8eaf-fd914aff5c16
+:END:
+- *OBJECTIVE:*  Create a github template =repository=
+- *Reference:*  [[https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-template-repository][Creating a template repository @Org]]
