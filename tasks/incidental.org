@@ -43,3 +43,10 @@ $$\lim_{x \to 0}{x^2 -x + 3}$$
 DEADLINE: <2026-02-03 Tue> CLOSED: [2026-02-03 Tue 07:16]
 - *OBJECTIVE:*  Request =$= inline math feature on repo =nvim-orgmode=
 - *Reference:*  [[https://github.com/nvim-orgmode/orgmode/pull/1059][Nvim-orgmode Inline Math @Github-issue]]
+** TODO Explore Orgmode Tangle :NVIM:ORGMODE:
+DEADLINE: <2026-02-20 Fri>
+:PROPERTIES:
+:ID: 06b7c1f9-7cb4-4a57-8e5a-1c0e8ddf2838
+:END:
+- *OBJECTIVE:*  Explore orgmode =tangle= feature
+- *Reference:*  [[https://nvim-orgmode.github.io/configuration#extract-source-code-(tangle)][Nvim-orgmode extract source-code block @Github-doc]]
