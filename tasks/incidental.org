@@ -57,3 +57,11 @@ DEADLINE: <2026-02-21 Sat>
 :END:
 - *OBJECTIVE:*  Rework =template= of =tracker.note= due to some issues when *archiving*
 - *Tracker:*    [[id:56d5a31c-31e6-44ab-8f88-2373e2662bb8][Rework Tracker Template @Tracker]]
+** TODO Test Orgmode Property Inheritance :NVIM:ORGMODE:
+DEADLINE: <2026-02-21 Sat>
+:PROPERTIES:
+:ID: 70c77db9-3624-49ac-8203-c8266c485e87
+:END:
+- *OBJECTIVE:*  Testing orgmode =property_inheritance= when moving to archive
+- *Reference:*  [[https://nvim-orgmode.github.io/configuration#org_use_property_inheritance][Nvim-orgmode org_use_property_inheritance @Github-doc]]
+  
