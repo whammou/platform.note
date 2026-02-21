@@ -107,3 +107,11 @@ DEADLINE: <2026-02-10 Tue>
 :END:
 - *OBJECTIVE:*  Create a github template =repository=
 - *Reference:*  [[https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-template-repository][Creating a template repository @Github-doc]]
+** TODO Orgmode Config Cleanup :NVIM:ORGMODE:
+DEADLINE: <2026-02-21 Sat>
+:PROPERTIES:
+:ID: c03503ef-a001-4b75-ac5d-f3d7d0fadcfe
+:END:
+- *OBJECTIVE:*  Clean up =orgmode= config for scalability
+- *Tracker:*    [[id:1ecd804b-9eda-4d93-aa6b-8366eec17169][Implementing Task Tracker Note @Tracker]]
+  
