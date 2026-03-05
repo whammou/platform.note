@@ -50,8 +50,8 @@ DEADLINE: <2026-02-23 Mon>
 :END:
 - *OBJECTIVE:*  Explore orgmode =tangle= feature
 - *Reference:*  [[https://nvim-orgmode.github.io/configuration#extract-source-code-(tangle)][Nvim-orgmode extract source-code block @Github-doc]]
-** TODO Orgmode Tracker Template Rework :NVIM:ORGMODE:
-DEADLINE: <2026-02-21 Sat>
+** DOIN Orgmode Tracker Template Rework :NVIM:ORGMODE:
+DEADLINE: <2026-03-05 Thu 20:27>
 :PROPERTIES:
 :ID: d4ccb6e5-4d1d-4e63-966d-61fb94b66061
 :END:
