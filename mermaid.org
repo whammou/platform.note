@@ -8,11 +8,3 @@ graph TD;
     B-->D;
     C-->D;
 #+end_mermaid
-
-#+begin_src mermaid
-graph TD;
-    A-->B;
-    A-->C;
-    B-->D;
-    C-->D;
-#+end_src
