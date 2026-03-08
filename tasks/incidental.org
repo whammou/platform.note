@@ -65,4 +65,9 @@ DEADLINE: <2026-02-21 Sat>
 :END:
 - *OBJECTIVE:*  Testing orgmode =property_inheritance= when moving to archive
 - *Reference:*  [[https://nvim-orgmode.github.io/configuration#org_use_property_inheritance][Nvim-orgmode org_use_property_inheritance @Github-doc]]
-  
+** TODO Workspace Directory Cleanup :STRUCTURE:
+DEADLINE: <2026-03-08 Sun>
+:PROPERTIES:
+:ID: 36b43d4d-6915-4af6-b438-04beb93bd038
+:END:
+- *OBJECTIVE:*  Create a new =workspace= workflow that goes hand-in-hand with =opencode=
