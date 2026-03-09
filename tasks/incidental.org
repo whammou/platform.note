@@ -51,7 +51,7 @@ DEADLINE: <2026-02-23 Mon>
 - *OBJECTIVE:*  Explore orgmode =tangle= feature
 - *Reference:*  [[https://nvim-orgmode.github.io/configuration#extract-source-code-(tangle)][Nvim-orgmode extract source-code block @Github-doc]]
 - *Tracker:*    [[id:cbf6f577-5700-4e40-88bc-3b6160c732b4][Nvim-orgmode Babel Tangle @Tracker]]
-** NEXT Orgmode Tracker Template Rework :NVIM:ORGMODE:
+** TODO Orgmode Tracker Template Rework :NVIM:ORGMODE:
 DEADLINE: <2026-03-05 Thu 20:27>
 :PROPERTIES:
 :ID: d4ccb6e5-4d1d-4e63-966d-61fb94b66061
@@ -65,9 +65,10 @@ DEADLINE: <2026-02-21 Sat>
 :END:
 - *OBJECTIVE:*  Testing orgmode =property_inheritance= when moving to archive
 - *Reference:*  [[https://nvim-orgmode.github.io/configuration#org_use_property_inheritance][Nvim-orgmode org_use_property_inheritance @Github-doc]]
-** DOIN Workspace Directory Cleanup :STRUCTURE:
+** NEXT Workspace Directory Cleanup :STRUCTURE:
 DEADLINE: <2026-03-08 Sun>
 :PROPERTIES:
 :ID: 36b43d4d-6915-4af6-b438-04beb93bd038
 :END:
 - *OBJECTIVE:*  Create a new =workspace= workflow that goes hand-in-hand with =opencode=
+- *Tracker:*    [[id:76762bf1-576d-4904-a0cc-abbede2e9ed3][Sync HOME of Current User @Tracker]]
