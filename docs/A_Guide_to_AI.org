@@ -9,14 +9,29 @@
 #+HTML:<details>
 
 * A Guide to AI :PLATFORM:DOC:META:AI:
+:PROPERTIES:
+:ID: 31ba2d4a-f30d-4d8b-8749-17e15f8d5173
+:END:
 #+HTML:</details>
 
 ** OUTL Coding Agents
+:PROPERTIES:
+:ID: 3e52dade-f431-4401-9726-d8c3e110f522
+:END:
 /What are AI agents/
 ** OUTL Model Providers
+:PROPERTIES:
+:ID: 38c0bc28-f843-48f2-9ea8-05394cc50cb8
+:END:
 /What are Model Providers/
 ** OUTL Opencode-omo Workflow
+:PROPERTIES:
+:ID: f540d7e0-7b56-42d2-bbc2-8fd7bd6f4ce0
+:END:
 #+BEGIN_QUOTE
 Oh My OpenCode (now rebranded as Oh My OpenAgent) is a specialized orchestration layer/plugin for the open-source AI coding agent OpenCode
 #+END_QUOTE
 *** Opencode 
+:PROPERTIES:
+:ID: 34d3d7a8-c37d-4852-82b2-33cd28f17702
+:END:
