@@ -114,4 +114,11 @@ DEADLINE: <2026-03-05 Thu 20:25>
 :END:
 - *OBJECTIVE:*  Clean up =orgmode= config for scalability
 - *Tracker:*    [[id:1ecd804b-9eda-4d93-aa6b-8366eec17169][Implementing Task Tracker Note @Tracker]]
+** TODO Oh-My-Opencode Plugin Investigation :OPENCODE:
+DEADLINE: <2026-03-11 Wed>
+:PROPERTIES:
+:ID: df528fae-5556-43af-b471-f0fc6fa36103
+:END:
+- *OBJECTIVE:*  Check out =oh-my-opencode= plugin for =opencode= platform
+- *Reference:*  [[https://github.com/code-yeongyu/oh-my-openagent][Oh-my-opencode @Github]]
   
