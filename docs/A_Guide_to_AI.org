@@ -5,10 +5,10 @@
 
 #+OPTIONS: title:nil tags:nil todo:nil ^:nil f:t num:t pri:nil toc:t
 #+TODO: TODO(t) (e) DOIN(d) PEND(p) OUTL(o) EXPL(x) FDBK(b) WAIT(w) NEXT(n) IDEA(i) | ABRT(a) PRTL(r) RVIW(v) DONE(f)
-#+FILETAGS: :DOC:META:AI:
+#+FILETAGS: :PLATFORM:DOC:META:AI:
 #+HTML:<details>
 
-* A Guide to AI :DOC:META:AI:
+* A Guide to AI :PLATFORM:DOC:META:AI:
 #+HTML:</details>
 
 ** OUTL Coding Agents
@@ -19,3 +19,4 @@
 #+BEGIN_QUOTE
 Oh My OpenCode (now rebranded as Oh My OpenAgent) is a specialized orchestration layer/plugin for the open-source AI coding agent OpenCode
 #+END_QUOTE
+*** Opencode 
