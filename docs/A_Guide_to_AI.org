@@ -11,5 +11,11 @@
 * A Guide to AI :DOC:META:AI:
 #+HTML:</details>
 
-** Coding Agents
-** Model Providers
+** OUTL Coding Agents
+/What are AI agents/
+** OUTL Model Providers
+/What are Model Providers/
+** OUTL Opencode-omo Workflow
+#+BEGIN_QUOTE
+Oh My OpenCode (now rebranded as Oh My OpenAgent) is a specialized orchestration layer/plugin for the open-source AI coding agent OpenCode
+#+END_QUOTE
