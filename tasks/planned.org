@@ -120,5 +120,6 @@ DEADLINE: <2026-03-11 Wed>
 :ID: df528fae-5556-43af-b471-f0fc6fa36103
 :END:
 - *OBJECTIVE:*  Check out =oh-my-opencode= plugin for =opencode= platform
+- *Tracker:*    [[id:96afbe1c-75c2-4788-85b4-018f4aa312ba][Oh-my-opencode Workflow @ Tracker]]
 - *Reference:*  [[https://github.com/code-yeongyu/oh-my-openagent][Oh-my-opencode @Github]]
   

@@ -1,0 +1,12 @@
+:PROPERTIES:
+:ID: c3a281da-a1a2-4fbd-85a5-b6c80c9f2c2f
+:END:
+
+#+OPTIONS: todo:t tags:nil tasks:t ^:nil toc:nil
+#+TODO: OPEN(y) (e) PROG(g) INTR(q) NEXT(n) | ABRT(a) DONE(f) CLSD(c)
+* Trackers List :PLATFORM:TRACKER:META:
+** OPEN Oh-my-opencode Workflow :OPENCODE:
+:PROPERTIES:
+:ID: 96afbe1c-75c2-4788-85b4-018f4aa312ba
+:END:
+Develop an agent workflow with =oh-my-opencode=
