@@ -24,14 +24,50 @@
 :ID: 38c0bc28-f843-48f2-9ea8-05394cc50cb8
 :END:
 /What are Model Providers/
-** OUTL Opencode-omo Workflow
+** OUTL Oh-My-OpenAgent
 :PROPERTIES:
 :ID: f540d7e0-7b56-42d2-bbc2-8fd7bd6f4ce0
 :END:
 #+BEGIN_QUOTE
-Oh My OpenCode (now rebranded as Oh My OpenAgent) is a specialized orchestration layer/plugin for the open-source AI coding agent OpenCode
+Oh My OpenAgent is multi-model agent orchesation harness for Opencode. It transform a sing AI agent into coordinated development team that actually ships code
+
+Not locked to Claude. Not locked to OpanAI. Not locked to anyone
+
+Just Better results, cheaper models, real orchestation
 #+END_QUOTE
-*** Opencode 
+*** Opencode-omo Workflow
 :PROPERTIES:
 :ID: 34d3d7a8-c37d-4852-82b2-33cd28f17702
 :END:
+**** Installation :META:
+Run the interactive installer:
+#+BEGIN_SRC sh
+bunx oh-my-opencode install #or
+npx oh-my-opencode install
+#+END_SRC
+
+#+BEGIN_QUOTE markdown
+[!NOTE]
+The CLI ships with standalone binaries for all major platforms. No runtime (Bun/Node.js) is required for CLI execution after installation
+#+END_QUOTE
+**** Overview :META:
+***** Agent Orchestration :META:
+Instead of having one agent doing everything. =Oh My OpenAgent= uses *specialized agents that delegate to each other* based on task type
+
+#+BEGIN_SRC txt
+User Request
+    ↓
+[Intent Gate] — Classifies what you actually want
+    ↓
+[Sisyphus] — Main orchestrator, plans and delegates
+    ↓
+    ├─→ [Prometheus] — Strategic planning (interview mode)
+    ├─→ [Atlas] — Todo orchestration and execution
+    ├─→ [Oracle] — Architecture consultation
+    ├─→ [Librarian] — Documentation/code search
+    ├─→ [Explore] — Fast codebase grep
+    └─→ [Category-based agents] — Specialized by task type
+#+END_SRC
+
+When =Sisyphus= delegates to a subagent, it doesn't pick a model name. It picks a category - =visual-engineering=, =ultrabrain=, =quick=, =deep=. The category automatically maps to the right model
+***** Agents Overview :META:

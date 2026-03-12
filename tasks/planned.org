@@ -114,12 +114,21 @@ DEADLINE: <2026-03-05 Thu 20:25>
 :END:
 - *OBJECTIVE:*  Clean up =orgmode= config for scalability
 - *Tracker:*    [[id:1ecd804b-9eda-4d93-aa6b-8366eec17169][Implementing Task Tracker Note @Tracker]]
-** DONE Oh-My-Opencode Plugin Investigation :OPENCODE:
+** PRTL Oh-My-Opencode Plugin Investigation :OPENCODE:
 DEADLINE: <2026-03-11 Wed> CLOSED: [2026-03-12 Thu 19:59]
 :PROPERTIES:
 :ID:       df528fae-5556-43af-b471-f0fc6fa36103
 :END:
 - *OBJECTIVE:*  Check out =oh-my-opencode= plugin for =opencode= platform
-- *Tracker:*    [[id:96afbe1c-75c2-4788-85b4-018f4aa312ba][Oh-my-opencode Workflow @ Tracker]]
-- *Document:*   [[id:f540d7e0-7b56-42d2-bbc2-8fd7bd6f4ce0][Opencode-omo Workflow @Doc]]
 - *Reference:*  [[https://github.com/code-yeongyu/oh-my-openagent][Oh-my-opencode @Github]]
+*** NEXT Implement Opencode-omo Workflow
+DEADLINE: <2026-03-12 Thu>
+- *OBJECTIVE:*  Implement =opencode-omo= workflow
+- *Tracker:*    [[id:96afbe1c-75c2-4788-85b4-018f4aa312ba][Oh-my-OpenAgent @Tracker]]
+- *Document:*   [[id:f540d7e0-7b56-42d2-bbc2-8fd7bd6f4ce0][Opencode-omo Workflow @Doc]]
+**** DOIN Opencode-omo Nvim Integration :NVIM:
+DEADLINE: <2026-03-12 Thu>
+- *OBJECTIVE:*  Implement a workflow with =neovim=
+**** TODO Opencode-omo Kitty Integration :KITTY:
+DEADLINE: <2026-03-12 Thu>
+- *OBJECTIVE:*  Implement a workflow with =kitty-session=
