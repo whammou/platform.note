@@ -39,7 +39,7 @@ Just Better results, cheaper models, real orchestation
 :PROPERTIES:
 :ID: 34d3d7a8-c37d-4852-82b2-33cd28f17702
 :END:
-**** Installation :META:
+**** Installation :content:
 Run the interactive installer:
 #+BEGIN_SRC sh
 bunx oh-my-opencode install #or
@@ -50,8 +50,8 @@ npx oh-my-opencode install
 [!NOTE]
 The CLI ships with standalone binaries for all major platforms. No runtime (Bun/Node.js) is required for CLI execution after installation
 #+END_QUOTE
-**** Overview :META:
-***** Agent Orchestration :META:
+**** Overview :content:
+***** Agent Orchestration
 Instead of having one agent doing everything. =Oh My OpenAgent= uses *specialized agents that delegate to each other* based on task type
 
 #+BEGIN_SRC txt
@@ -70,4 +70,50 @@ User Request
 #+END_SRC
 
 When =Sisyphus= delegates to a subagent, it doesn't pick a model name. It picks a category - =visual-engineering=, =ultrabrain=, =quick=, =deep=. The category automatically maps to the right model
-***** Agents Overview :META:
+***** Agents Overview
+****** Sisyphus: The Discipline Agent
+#+BEGIN_QUOTE org
+Named after the Greek myth. He rolls the boulder every day. Never stops. Never gives up
+#+END_QUOTE
+
+=Sisyphus= is the main orchestrator. He plans, delegates to specialists, and drives task to completion with aggressive parallel execution. He doesn't stop halfway. He doesn't get distracted
+****** Hephaestus: The Legitimate Craftsman
+#+BEGIN_QUOTE org
+Give him a goal, not a recipe. He explores the codebase, researches patterns, and executes end-to-end without hand-holding. He is the legitimate craftsman because he was born from necessity, not privilege
+#+END_QUOTE
+
+Use Hephaestus when you need deep architectural reasoning, complex debugging across many files, or cross-domain knowledge synthesis. Switch to him explicitly when the work demands particular strengths
+****** Prometheus: The Strategic Planner
+Prometheus interviews you like a real engineer. Asks clarifying questions. Identifies scope and ambiguities. Builds detailed plan before a sing line of code is touched
+
+#+BEGIN_QUOTE markdown
+[!NOTE]
+Press *Tab* to enter Prometheus mode, or type =@plan "your task"= from =Sisyphus=
+#+END_QUOTE
+****** Oracle: The Consultant
+Read-only high-IQ consultant for architecture decisions and complex debugging. Consult oracle when facing unfamiliar patterns, security concerns, or multi-system trade-offs
+****** Supporting Cast
+- *Metis* - Gap analyzer. Catches what =prometheus= missed before plan are finalized
+- *Momus* - Ruthless reviewer. Validates plans against clarity, verification, and context criteria
+- *Explore* - Fast codebase grep. Uses speed-focused models for pattern discovery
+- *Multimodal Looker* - Vision and screenshot analysis
+
+***** Working Modes
+****** Ultrawork Mode: For the Lazy
+Type =ultrawork= or just =ulw=
+
+The Agent figures everything out. Explores your codebase. Researches patterns. Implements the feature. Verifies with diagnostics. Keep working until done
+
+This is the "Just do it" mode. Full automatic. You don't have to think deep becuase the agent thinks deep for you
+****** Prometheus: For the Precise
+Press *Tab* to enter =Prometheus mode=
+
+Prometheus interviews you like a real engineer. Asks clarifying questions. Identifies scope and ambiguities. Build a detailed plan before a sing line code is touched
+
+Then run =/start-work= and =Atlas= takes over. Tasks are distributed to specialized subagents. Each completion is verified independently. Learnings accumulate across tasks. Progress tracks across sessions.
+
+#+BEGIN_QUOTE markdown
+[!TIP]
+Use =Prometheus= for multi-day projects, critical production changes complex refactoring, or when you want a documented decision trail
+#+END_QUOTE
+***** Agent Model Matching
