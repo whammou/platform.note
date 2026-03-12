@@ -24,22 +24,22 @@
 :ID: 38c0bc28-f843-48f2-9ea8-05394cc50cb8
 :END:
 /What are Model Providers/
-** OUTL Oh-My-OpenAgent - Agents Orchestration :OPENCODE:OMO:
+** OUTL Opencode-omo Agents Orchestration :OPENCODE:OMO:
 :PROPERTIES:
-:ID: f540d7e0-7b56-42d2-bbc2-8fd7bd6f4ce0
+:ID: fb793040-5ba0-4118-9833-0305ae58d836
 :END:
+
 #+BEGIN_QUOTE
-Oh My OpenAgent is multi-model agent orchesation harness for Opencode. It transform a sing AI agent into coordinated development team that actually ships code
+OhMyOpencode is multi-model agent orchestration harness for Opencode. It transforms a single AI agent into a coordinated development team that actually ships code
 
-Not locked to Claude. Not locked to OpanAI. Not locked to anyone
+Not locked to Claude. Not locked to OpenAI. Not locked to anyone
 
-Just Better results, cheaper models, real orchestation
+Just better results, cheaper models, real orchestration
 #+END_QUOTE
-*** Opencode-omo Workflow
+*** Opencode-omo Installation :content:
 :PROPERTIES:
-:ID: 34d3d7a8-c37d-4852-82b2-33cd28f17702
+:ID: 5f98f1ab-7319-46e9-823a-f90a38104073
 :END:
-**** Installation :content:
 Run the interactive installer:
 #+BEGIN_SRC sh
 bunx oh-my-opencode install #or
@@ -50,9 +50,15 @@ npx oh-my-opencode install
 [!NOTE]
 The CLI ships with standalone binaries for all major platforms. No runtime (Bun/Node.js) is required for CLI execution after installation
 #+END_QUOTE
-**** Overview :content:
-***** Agent Orchestration
-Instead of having one agent doing everything. =Oh My OpenAgent= uses *specialized agents that delegate to each other* based on task type
+*** Opencode-omo Overview :content:
+:PROPERTIES:
+:ID: 64a6ea9d-53ec-40f2-8bc4-c2e0b740d202
+:END:
+**** Agent Orchestration
+:PROPERTIES:
+:ID: 0b64b4a2-e2ca-41a4-8524-361168a37931
+:END:
+Instead of having one agent doing everything. =OhMyOpencode= uses *specialized agents that delegate to each other* based on task type
 
 #+BEGIN_SRC txt
 User Request
@@ -70,45 +76,72 @@ User Request
 #+END_SRC
 
 When =Sisyphus= delegates to a subagent, it doesn't pick a model name. It picks a category - =visual-engineering=, =ultrabrain=, =quick=, =deep=. The category automatically maps to the right model
-***** Agents Overview
-****** Sisyphus: The Discipline Agent
+**** Agents Overview
+:PROPERTIES:
+:ID: 52e9ea9e-c588-4529-bcc3-6b844a905d13
+:END:
+***** Sisyphus: The Discipline Agent
+:PROPERTIES:
+:ID: 276d3f33-985a-4627-8cfc-8996b8263c19
+:END:
 #+BEGIN_QUOTE org
 Named after the Greek myth. He rolls the boulder every day. Never stops. Never gives up
 #+END_QUOTE
 
 =Sisyphus= is the main orchestrator. He plans, delegates to specialists, and drives task to completion with aggressive parallel execution. He doesn't stop halfway. He doesn't get distracted
-****** Hephaestus: The Legitimate Craftsman
+***** Hephaestus: The Legitimate Craftsman
+:PROPERTIES:
+:ID: 920524f8-0c6e-4118-876a-598a3310e73b
+:END:
 #+BEGIN_QUOTE org
 Give him a goal, not a recipe. He explores the codebase, researches patterns, and executes end-to-end without hand-holding. He is the legitimate craftsman because he was born from necessity, not privilege
 #+END_QUOTE
 
 Use Hephaestus when you need deep architectural reasoning, complex debugging across many files, or cross-domain knowledge synthesis. Switch to him explicitly when the work demands particular strengths
-****** Prometheus: The Strategic Planner
-Prometheus interviews you like a real engineer. Asks clarifying questions. Identifies scope and ambiguities. Builds detailed plan before a sing line of code is touched
+***** Prometheus: The Strategic Planner
+:PROPERTIES:
+:ID: e164770b-f85b-4628-87f7-858e402fa162
+:END:
+Prometheus interviews you like a real engineer. Asks clarifying questions. Identifies scope and ambiguities. Builds detailed plan before a single line of code is touched
 
 #+BEGIN_QUOTE markdown
 [!NOTE]
 Press *Tab* to enter Prometheus mode, or type =@plan "your task"= from =Sisyphus=
 #+END_QUOTE
-****** Oracle: The Consultant
+***** Oracle: The Consultant
+:PROPERTIES:
+:ID: 89d1ab2b-dd23-4b6a-8d9b-e62a6669d45a
+:END:
 Read-only high-IQ consultant for architecture decisions and complex debugging. Consult oracle when facing unfamiliar patterns, security concerns, or multi-system trade-offs
-****** Supporting Cast
-- *Metis* - Gap analyzer. Catches what =prometheus= missed before plan are finalized
+***** Supporting Cast
+:PROPERTIES:
+:ID: aaa341c0-8bb8-4c34-9443-92ee88b8799d
+:END:
+- *Metis* - Gap analyzer. Catches what =Prometheus= missed before plans are finalized
 - *Momus* - Ruthless reviewer. Validates plans against clarity, verification, and context criteria
 - *Explore* - Fast codebase grep. Uses speed-focused models for pattern discovery
 - *Multimodal Looker* - Vision and screenshot analysis
-
-***** Working Modes
-****** Ultrawork Mode: For the Lazy
+  
+**** Working Modes
+:PROPERTIES:
+:ID: d2c88aeb-bf16-45ca-a9a6-011da6aae557
+:END:
+***** Ultrawork Mode: For the Lazy
+:PROPERTIES:
+:ID: 81abd9f8-f33e-4ae5-854e-91e07bfa7238
+:END:
 Type =ultrawork= or just =ulw=
 
 The Agent figures everything out. Explores your codebase. Researches patterns. Implements the feature. Verifies with diagnostics. Keep working until done
 
-This is the "Just do it" mode. Full automatic. You don't have to think deep becuase the agent thinks deep for you
-****** Prometheus: For the Precise
+This is the "Just do it" mode. Full automatic. You don't have to think deep because the agent thinks deep for you
+***** Prometheus: For the Precise
+:PROPERTIES:
+:ID: 6cd61866-c88f-43e5-b9c9-9103a600c44f
+:END:
 Press *Tab* to enter =Prometheus mode=
 
-Prometheus interviews you like a real engineer. Asks clarifying questions. Identifies scope and ambiguities. Build a detailed plan before a sing line code is touched
+Prometheus interviews you like a real engineer. Asks clarifying questions. Identifies scope and ambiguities. Build a detailed plan before a single line of code is touched
 
 Then run =/start-work= and =Atlas= takes over. Tasks are distributed to specialized subagents. Each completion is verified independently. Learnings accumulate across tasks. Progress tracks across sessions.
 
@@ -116,4 +149,11 @@ Then run =/start-work= and =Atlas= takes over. Tasks are distributed to speciali
 [!TIP]
 Use =Prometheus= for multi-day projects, critical production changes complex refactoring, or when you want a documented decision trail
 #+END_QUOTE
-***** Agent Model Matching
+**** Agent Model Matching
+:PROPERTIES:
+:ID: e270048a-01b2-40a4-8bbb-c2af809009ca
+:END:
+*** Opencode-omo Workflow
+:PROPERTIES:
+:ID: 2f5c808e-9893-4788-99b2-0c36b9c49c81
+:END:
