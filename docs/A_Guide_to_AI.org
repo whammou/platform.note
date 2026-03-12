@@ -24,7 +24,7 @@
 :ID: 38c0bc28-f843-48f2-9ea8-05394cc50cb8
 :END:
 /What are Model Providers/
-** OUTL Oh-My-OpenAgent
+** OUTL Oh-My-OpenAgent - Agents Orchestration :OPENCODE:OMO:
 :PROPERTIES:
 :ID: f540d7e0-7b56-42d2-bbc2-8fd7bd6f4ce0
 :END:
