@@ -125,10 +125,16 @@ DEADLINE: <2026-03-11 Wed> CLOSED: [2026-03-12 Thu 19:59]
 DEADLINE: <2026-03-12 Thu>
 - *OBJECTIVE:*  Implement =opencode-omo= workflow
 - *Tracker:*    [[id:96afbe1c-75c2-4788-85b4-018f4aa312ba][Oh-my-OpenAgent @Tracker]]
-- *Document:*   [[id:f540d7e0-7b56-42d2-bbc2-8fd7bd6f4ce0][Opencode-omo Workflow @Doc]]
+- *Document:*   [[id:2f5c808e-9893-4788-99b2-0c36b9c49c81][Opencode-omo Workflow @Doc]]
 **** DOIN Opencode-omo Nvim Integration :NVIM:
 DEADLINE: <2026-03-12 Thu>
+:PROPERTIES:
+:ID: e2540ade-e07e-434c-b325-7d14b14196d6
+:END:
 - *OBJECTIVE:*  Implement a workflow with =neovim=
 **** TODO Opencode-omo Kitty Integration :KITTY:
 DEADLINE: <2026-03-12 Thu>
+:PROPERTIES:
+:ID: 5d39c1f0-f473-4ba8-b87c-f12b2c8d1346
+:END:
 - *OBJECTIVE:*  Implement a workflow with =kitty-session=
