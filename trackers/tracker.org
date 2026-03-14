@@ -24,6 +24,12 @@ Implementation for =nvim= and =kitty=
 :PROPERTIES:
 :ID: 9383fbec-3f01-45b7-973d-ba9148078185
 :END:
+*** Session Management
+:PROPERTIES:
+:ID: fd9d19bc-b107-4a80-8b0e-aaff1cc3b734
+:END:
+Opencode session management \\
+Reference:  [[https://deepwiki.com/opencode-ai/opencode/5.2-session-management][Opencode session management @Deepwiki]]
 ** OPEN Self-host MCP Server :FEATURE:
 DEADLINE: <2026-03-14 Sat>
 :PROPERTIES:
