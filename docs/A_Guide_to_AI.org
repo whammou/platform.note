@@ -153,3 +153,7 @@ Use =Prometheus= for multi-day projects, critical production changes complex ref
 :PROPERTIES:
 :ID: 2f5c808e-9893-4788-99b2-0c36b9c49c81
 :END:
+**** MCP Server Config
+:PROPERTIES:
+:ID: b51a90a4-52da-4ab3-870d-9e26413e424f
+:END:

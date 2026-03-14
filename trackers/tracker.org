@@ -13,3 +13,11 @@ Implementation for =nvim= and =kitty=
 - [X] =neovim= integration using =folke/sidekick=
 - [ ] =kitty= integration
 - *Reference:*  [[id:1d233750-6262-4534-ab1e-ecbb62b94334][A Guide to AI @Doc]]
+*** Install Opencode MCP Server
+:PROPERTIES:
+:ID: b2bfe2a0-afb0-46db-a991-07b6f6566353
+:END:
+- [ ] Config =MCP= remote server
+- [ ] Usage =MCP= remote server
+- *Reference:*  [[id:b51a90a4-52da-4ab3-870d-9e26413e424f][MCP Server Config @Doc]]
+*** Write Agent Skills
