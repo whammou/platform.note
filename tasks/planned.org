@@ -123,9 +123,11 @@ DEADLINE: <2026-03-11 Wed> CLOSED: [2026-03-12 Thu 19:59]
 - *Reference:*  [[https://github.com/code-yeongyu/oh-my-openagent][Oh-my-opencode @Github]]
 *** NEXT Implement Opencode-omo Workflow
 DEADLINE: <2026-03-12 Thu>
+:PROPERTIES:
+:ID: fe60ee21-acdb-499c-b18a-ceab141d28b0
+:END:
 - *OBJECTIVE:*  Implement =opencode-omo= workflow
 - *Tracker:*    [[id:96afbe1c-75c2-4788-85b4-018f4aa312ba][Oh-my-OpenAgent @Tracker]]
-- *Document:*   [[id:2f5c808e-9893-4788-99b2-0c36b9c49c81][Opencode-omo Workflow @Doc]]
 **** DOIN Opencode-omo Nvim Integration :NVIM:
 DEADLINE: <2026-03-12 Thu>
 :PROPERTIES:

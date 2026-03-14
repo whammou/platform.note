@@ -9,9 +9,6 @@
 #+HTML:<details>
 
 * A Guide to AI :PLATFORM:DOC:META:AI:
-:PROPERTIES:
-:ID: 31ba2d4a-f30d-4d8b-8749-17e15f8d5173
-:END:
 #+HTML:</details>
 
 ** OUTL Coding Agents

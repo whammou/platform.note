@@ -9,5 +9,7 @@
 :PROPERTIES:
 :ID: 96afbe1c-75c2-4788-85b4-018f4aa312ba
 :END:
-Develop an agent workflow with =oh-my-opencode=
-
+Implementation for =nvim= and =kitty=
+- [X] =neovim= integration using =folke/sidekick=
+- [ ] =kitty= integration
+- *Reference:*  [[id:1d233750-6262-4534-ab1e-ecbb62b94334][A Guide to AI @Doc]]
