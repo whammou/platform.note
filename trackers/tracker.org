@@ -20,7 +20,7 @@ Implementation for =nvim= and =kitty=
 - [ ] Config =MCP= remote server
 - [ ] Usage =MCP= remote server
 - *Reference:*  [[id:b51a90a4-52da-4ab3-870d-9e26413e424f][MCP Server Config @Doc]]
-*** Write Agent Skills
+*** Writing Agent Skills
 :PROPERTIES:
 :ID: 9383fbec-3f01-45b7-973d-ba9148078185
 :END:
