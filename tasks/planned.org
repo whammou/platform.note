@@ -101,7 +101,6 @@ CLOSED: [2026-01-13 Tue 14:44] DEADLINE: <2026-01-13 Tue>
   x_2^3 + \int \frac{x_2^3}{x_3^1}\,dx
   #+END_SRC
 ** TODO Create Template Repository :GITHUB:
-DEADLINE: <2026-02-10 Tue>
 :PROPERTIES:
 :ID:       f7d2e03d-db00-4afd-8eaf-fd914aff5c16
 :END:
@@ -115,26 +114,26 @@ DEADLINE: <2026-03-11 Wed> CLOSED: [2026-03-12 Thu 19:59]
 - *OBJECTIVE:*  Check out =oh-my-opencode= plugin for =opencode= platform
 - *Reference:*  [[https://github.com/code-yeongyu/oh-my-openagent][Oh-my-opencode @Github]]
 *** NEXT Implement Opencode-omo Workflow
-DEADLINE: <2026-03-12 Thu>
+DEADLINE: <2026-03-17 Tue>
 :PROPERTIES:
 :ID: fe60ee21-acdb-499c-b18a-ceab141d28b0
 :END:
 - *OBJECTIVE:*  Implement =opencode-omo= workflow
 - *Tracker:*    [[id:96afbe1c-75c2-4788-85b4-018f4aa312ba][Oh-my-OpenAgent @Tracker]]
 **** DOIN Opencode-omo Nvim Integration :NVIM:
-DEADLINE: <2026-03-12 Thu>
+DEADLINE: <2026-03-17 Tue>
 :PROPERTIES:
 :ID: e2540ade-e07e-434c-b325-7d14b14196d6
 :END:
 - *OBJECTIVE:*  Implement a workflow with =neovim=
 **** TODO Opencode-omo Kitty Integration :KITTY:
-DEADLINE: <2026-03-12 Thu>
+DEADLINE: <2026-03-17 Tue>
 :PROPERTIES:
 :ID: 5d39c1f0-f473-4ba8-b87c-f12b2c8d1346
 :END:
 - *OBJECTIVE:*  Implement a workflow with =kitty-session=
 ** TODO Run MCP Server :OPENCODE:AI:
-DEADLINE: <2026-03-14 Sat>
+DEADLINE: <2026-03-17 Tue>
 :PROPERTIES:
 :ID: 441c26be-17cd-4776-8f70-e15ef9ccaa53
 :END:
