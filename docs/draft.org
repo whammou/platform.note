@@ -6,7 +6,7 @@
 #+FILETAGS: :DOC:DRAFT:PLATFORM:
 #+HTML:<details>
 
-* Document Drafts :DOC:DRAFT:PLATFORM:META:
+* Document Drafts :DOC:DRAFT:PLATFORM:#Meta:
 #+HTML:</details>
 
 #+NAME:Warning Message

@@ -16,7 +16,7 @@ CLOSED: [2025-05-13 Tue 18:11] DEADLINE: <2025-05-13 Tue 20:00>
 *** ABRT Modify README
 CLOSED: [2025-04-11 Fri 21:41]
 - *Goal(s):* modify and add README content
-  - [ ] modify [[./README.org::repo-hierarchy][Hierarchy]]
+  - [ ] modify [[./README.org:@Note:repo-hierarchy][Hierarchy]]
   - [ ] add template structure
 *** DONE Separate archive hierarchy
 CLOSED: [2025-05-13 Tue 18:11]

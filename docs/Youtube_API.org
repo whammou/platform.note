@@ -10,7 +10,7 @@
 #+FILETAGS: :DOC:PROJECT:PLATFORM:YOUTUBE:
 #+HTML:<details>
 
-* PRTL Youtube API [66%] :DOC:META:PLATFORM:YOUTUBE:
+* PRTL Youtube API [66%] :DOC:#Meta:PLATFORM:YOUTUBE:
 CLOSED: [2025-06-05 Thu 02:01]
 #+HTML:</details>
 -  *OBJECTIVE:* /Use youtube for documentation:/
