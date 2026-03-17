@@ -3,7 +3,7 @@
 #+OPTIONS: ^:nil
 #+FILETAGS: TEST
 
-* Logs :LOG:PLATFORM:
+* Logs :LOG:@Platform:
 - /Store finished tasks/
 ** DONE Setting Gdrive scope :GDRIVE:RCLONE:
 CLOSED: [2025-07-17 Thu 08:23] DEADLINE: <2025-07-17 Thu>

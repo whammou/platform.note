@@ -7,10 +7,10 @@
 #+OPTIONS: title:nil tags:nil todo:nil ^:nil f:t num:t pri:nil toc:t
 #+LATEX_HEADER: \renewcommand\maketitle{} \usepackage[scaled]{helvet} \renewcommand\familydefault{\sfdefault}
 #+TODO: TODO(t) (e) DOIN(d) PEND(p) OUTL(o) EXPL(x) FDBK(b) WAIT(w) NEXT(n) IDEA(i) | ABRT(a) PRTL(r) RVIW(v) DONE(f)
-#+FILETAGS: :DOC:PROJECT:PLATFORM:YOUTUBE:
+#+FILETAGS: :%Doc:@Project:@Platform:YOUTUBE:
 #+HTML:<details>
 
-* PRTL Youtube API [66%] :DOC:#Meta:PLATFORM:YOUTUBE:
+* PRTL Youtube API [66%] :%Doc:#Meta:@Platform:YOUTUBE:
 CLOSED: [2025-06-05 Thu 02:01]
 #+HTML:</details>
 -  *OBJECTIVE:* /Use youtube for documentation:/
