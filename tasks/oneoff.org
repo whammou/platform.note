@@ -3,11 +3,11 @@
 #+OPTIONS: todo:t tags:nil tasks:t ^:nil toc:nil
 #+TITLE: Platform Oneoff Tasks
 
-* List of Oneoff Tasks :%Task:_Oneoff:@Platform:#Meta:
+* List of Oneoff Tasks :%Task:_Oneoff:PLATFORM:meta:
 ** PEND Organize Script repo :GITHUB:
 Organize ~scripts~ in ~/scipts~ and ~scripts~ in ~$PATH~
 - [ ] Organize ~/scripts~
-- [ ] Oragnize [[file:/home/whammou/notes/capture.org:@Note:*Qtile scripts][qtile]] scripts
+- [ ] Oragnize [[file:/home/whammou/notes/capture.org:NOTE:*Qtile scripts][qtile]] scripts
 - [ ] Oragnize ~$PATH~
 ** DONE Github repo updates track :GITHUB:
 CLOSED: [2025-09-06 Sat 20:09]
@@ -53,7 +53,7 @@ CLOSED: [2025-09-06 Sat 21:10] DEADLINE: <2025-09-06 Sat>
 ** PEND Advanced search Github :GITHUB:
 - *OBJECTIVE:* Learn avanced search technique on github
 - *Reference:* [[https://www.freecodecamp.org/news/github-search-tips/][Github advanced search tips @Freecodecamp]]
-** DONE Create issue on nvim-orgmode (vim-regex) :GITHUB:@Packages:NVIM:ORGMODE:
+** DONE Create issue on nvim-orgmode (vim-regex) :GITHUB:PACKAGES:NVIM:ORGMODE:
 CLOSED: [2025-07-14 Mon 11:07] DEADLINE: <2025-07-14 Mon>
 - *OBJECTIVE:* Create an issue on latex syntax does not load on nvim first launch
 - *Visit:* [[https://github.com/nvim-orgmode/orgmode/issues][Issue nvim-orgmode @Github]]

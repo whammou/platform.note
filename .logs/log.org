@@ -3,7 +3,7 @@
 #+OPTIONS: ^:nil
 #+FILETAGS: TEST
 
-* Logs :LOG:@Platform:
+* Logs :LOG:PLATFORM:
 - /Store finished tasks/
 ** DONE Setting Gdrive scope :GDRIVE:RCLONE:
 CLOSED: [2025-07-17 Thu 08:23] DEADLINE: <2025-07-17 Thu>
@@ -16,7 +16,7 @@ CLOSED: [2025-05-13 Tue 18:11] DEADLINE: <2025-05-13 Tue 20:00>
 *** ABRT Modify README
 CLOSED: [2025-04-11 Fri 21:41]
 - *Goal(s):* modify and add README content
-  - [ ] modify [[./README.org:@Note:repo-hierarchy][Hierarchy]]
+  - [ ] modify [[./README.org:NOTE:repo-hierarchy][Hierarchy]]
   - [ ] add template structure
 *** DONE Separate archive hierarchy
 CLOSED: [2025-05-13 Tue 18:11]

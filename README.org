@@ -1,6 +1,6 @@
 #+TITLE: Platform – Overview
 #+DESCRIPTION: Technical platform documentation.
-#+FILETAGS: :@Platform:
+#+FILETAGS: :PLATFORM:
 
 * Overview
   Technical platform documentation for services, APIs, and infrastructure.
@@ -19,8 +19,8 @@
 * Tag & State Conventions (inherited from the main repo)
   - *States* – TODO, PEND, GOING, DONE, ARCHIVED, etc. (see main README).
   - *Tags* – Use the hierarchical tag format:
-    :@Platform:<CATEGORY>:<TYPE>:<DETAIL>:
-    Example: =:@Platform:API:DOCUMENTATION:=
+    :PLATFORM:<CATEGORY>:<TYPE>:<DETAIL>:
+    Example: =:PLATFORM:API:DOCUMENTATION:=
 
 * Typical Files
   - =docs/<something>.org= – API references, architecture diagrams, deployment guides.
