@@ -4,7 +4,7 @@
 #+TITLE: Platform Planned Tasks
 
 * List of Planned Tasks :typTask:catPlanned:PLATFORM:meta:
-** TODO Write Github Actions Workflow :@Github:githubactions:
+** TODO Write Github Actions Workflow :@Github:GithubActions:
 :PROPERTIES:
 :ID:       ba475a5e-f6b8-44fa-943e-979569b80c4e
 :END:

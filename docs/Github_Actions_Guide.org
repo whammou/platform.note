@@ -6,9 +6,9 @@
 #+OPTIONS: title:nil tags:nil todo:nil ^:nil f:t num:t pri:nil toc:t
 #+LATEX_HEADER: \renewcommand\maketitle{} \usepackage[scaled]{helvet} \renewcommand\familydefault{\sfdefault}
 #+TODO: TODO(t) (e) DOING(d) PEND(p) OUTL(o) RESEARCH(s) FEEDBACK(b) WAITING(w) NEXT(n) | IDEA(i) ABORTED(a) PARTIAL(r) REVIEW(v) DONE(f)
-#+FILETAGS: :typDoc:meta:@Git:githubactions:
+#+FILETAGS: :typDoc:meta:@Git:GithubActions:
 #+HTML:<details>
 
-* Github Actions Guide :typDoc:meta:@Git:githubactions:
+* Github Actions Guide :typDoc:meta:@Git:GithubActions:
 #+HTML:</details>
 
