@@ -5,10 +5,10 @@
 
 #+OPTIONS: title:nil tags:nil todo:nil ^:nil f:t num:t pri:nil toc:t
 #+TODO: TODO(t) (e) DOIN(d) PEND(p) OUTL(o) EXPL(x) FDBK(b) WAIT(w) NEXT(n) IDEA(i) | ABRT(a) PRTL(r) RVIW(v) DONE(f)
-#+FILETAGS: :PLATFORM:%Doc:meta:AI:
+#+FILETAGS: :PLATFORM:typDoc:meta:AI:
 #+HTML:<details>
 
-* A Guide to AI :PLATFORM:%Doc:meta:AI:
+* A Guide to AI :PLATFORM:typDoc:meta:AI:
 #+HTML:</details>
 
 ** OUTL Coding Agents
@@ -21,7 +21,7 @@
 :ID: 38c0bc28-f843-48f2-9ea8-05394cc50cb8
 :END:
 /What are Model Providers/
-** OUTL Opencode-omo Agents Orchestration :OPENCODE:OMO:
+** OUTL Opencode-omo Agents Orchestration :@OpenCode:OMO:
 :PROPERTIES:
 :ID: fb793040-5ba0-4118-9833-0305ae58d836
 :END:

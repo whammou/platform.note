@@ -3,8 +3,8 @@
 #+OPTIONS: todo:t tags:nil tasks:t ^:nil toc:nil
 #+TITLE: Platform Incidental Tasks
 
-* List of Incidental Tasks :%Task:_Incidental:PLATFORM:meta:
-** DONE [#A] Unify Resource Path :PANDOC:GITHUB:ORGMODE:
+* List of Incidental Tasks :typTask:catIncidental:PLATFORM:meta:
+** DONE [#A] Unify Resource Path :@Pandoc:@Github:@Orgmode:
 DEADLINE: <2026-01-28 Wed> CLOSED: [2026-01-28 Wed 17:10]
 #+name:LOGBOOK
 #+html:<details><summary>LOGBOOK</summary>
@@ -17,7 +17,7 @@ DEADLINE: <2026-01-28 Wed> CLOSED: [2026-01-28 Wed 17:10]
 - *Reference:*
   + [[https://github.com/jgm/pandoc/issues/3752][Relative image working directory @Github-pandoc-issue]]
   + [[shell:man 1 pandoc][Pandoc man page @Manpage]]
-** DONE Testing Inline Math Render :GITHUB:PANDOC:mathrender:
+** DONE Testing Inline Math Render :@Github:@Pandoc:MathRender:
 DEADLINE: <2026-01-31 Sat> CLOSED: [2026-01-31 Sat 18:01]
 :PROPERTIES:
 :ID: 6281ae01-c59e-4476-9c9d-d81d0c14b4e0
@@ -39,11 +39,11 @@ DEADLINE: <2026-01-31 Sat> CLOSED: [2026-01-31 Sat 18:01]
 $$\lim_{x \to 0}{x^2 -x + 3}$$
 
 - *OBJECTIVE:*  Testing =$= inline math render correctly by =pandoc=
-*** DONE Create Nvim-orgmode Issue :ORGMODE:
+*** DONE Create Nvim-orgmode Issue :@Orgmode:
 DEADLINE: <2026-02-03 Tue> CLOSED: [2026-02-03 Tue 07:16]
 - *OBJECTIVE:*  Request =$= inline math feature on repo =nvim-orgmode=
 - *Reference:*  [[https://github.com/nvim-orgmode/orgmode/pull/1059][Nvim-orgmode Inline Math @Github-issue]]
-** DONE Workspace Directory Cleanup :STRUCTURE:
+** DONE Workspace Directory Cleanup :_Structure:
 DEADLINE: <2026-03-08 Sun> CLOSED: [2026-03-11 Wed 00:18]
 :PROPERTIES:
 :ID: 36b43d4d-6915-4af6-b438-04beb93bd038

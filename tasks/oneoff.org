@@ -3,32 +3,32 @@
 #+OPTIONS: todo:t tags:nil tasks:t ^:nil toc:nil
 #+TITLE: Platform Oneoff Tasks
 
-* List of Oneoff Tasks :%Task:_Oneoff:PLATFORM:meta:
-** PEND Organize Script repo :GITHUB:
+* List of Oneoff Tasks :typTask:catOneoff:PLATFORM:meta:
+** PEND Organize Script repo :@Github:
 Organize ~scripts~ in ~/scipts~ and ~scripts~ in ~$PATH~
 - [ ] Organize ~/scripts~
 - [ ] Oragnize [[file:/home/whammou/notes/capture.org:NOTE:*Qtile scripts][qtile]] scripts
 - [ ] Oragnize ~$PATH~
-** DONE Github repo updates track :GITHUB:
+** DONE Github repo updates track :@Github:
 CLOSED: [2025-09-06 Sat 20:09]
 - *OBJECTIVE:* Find a way to keep track github repo updates and get notification from updates
 -----
 - *[NOTE]* taken on [2025-09-06 20:08]: \\
   Keep track of =repo= updates and receive notifications throught emails by subscribing to the target =repo= and enable =email= notifications
 -----
-** ABRT Github wiki :GITHUB:
+** ABRT Github wiki :@Github:
 CLOSED: [2025-09-06 Sat 20:09]
 - *OBJECTIVE:* learn to write a github wiki page
 -----
 - *[NOTE]* taken on [2025-09-06 20:09]: \\
   Wiki is not needed for a =pkm= system as wiki is the way to take notes within a functional repo. That is essentially a =pkm= repo
 -----
-** PEND Update github profile :GITHUB:
+** PEND Update github profile :@Github:
 :PROPERTIES:
 :ID:       2b2eaa80-2103-4ecb-b5d2-4e1f8893d901
 :END:
 - *OBJECTIVE:* /Update my github profile/
-** ABRT Workaround id link :GITHUB:ORGMODE:
+** ABRT Workaround id link :@Github:@Orgmode:
 CLOSED: [2025-09-06 Sat 21:03] DEADLINE: <2025-09-06 Sat>
 - *OBJECTIVE:* Workaround github render does not support for id link like in orgmode
 -----
@@ -50,18 +50,18 @@ CLOSED: [2025-09-06 Sat 21:10] DEADLINE: <2025-09-06 Sat>
     * Workaround - Disable render of =state= on github combines with =headline-slug= to genrate html friendly link
     * This works very fine with =docs= but not =tasks=
 -----
-** PEND Advanced search Github :GITHUB:
+** PEND Advanced search Github :@Github:
 - *OBJECTIVE:* Learn avanced search technique on github
 - *Reference:* [[https://www.freecodecamp.org/news/github-search-tips/][Github advanced search tips @Freecodecamp]]
-** DONE Create issue on nvim-orgmode (vim-regex) :GITHUB:PACKAGES:NVIM:ORGMODE:
+** DONE Create issue on nvim-orgmode (vim-regex) :@Github:PACKAGES:@Nvim:@Orgmode:
 CLOSED: [2025-07-14 Mon 11:07] DEADLINE: <2025-07-14 Mon>
 - *OBJECTIVE:* Create an issue on latex syntax does not load on nvim first launch
 - *Visit:* [[https://github.com/nvim-orgmode/orgmode/issues][Issue nvim-orgmode @Github]]
-** DONE Setup rclone mega :RCLONE:MEGANZ:
+** DONE Setup rclone mega :@Rclone:MEGANZ:
 CLOSED: [2025-07-18 Fri 17:17] DEADLINE: <2025-07-18 Fri>
 - *OBJECTIVE:* Setup rclone to sync with mega-nz cloud platfoem
 - *Reference:* [[https://help.mega.io/megas4/setup-guides/rclone-setup-guide-for-mega-s4][Mega-rclone guide @Mega-doc]]
-** DONE Orgmode github footnote :ORGMODE:GITHUB:
+** DONE Orgmode github footnote :@Orgmode:@Github:
 CLOSED: [2025-07-29 Tue 21:45] DEADLINE: <2025-07-29 Tue>
 - *OBJECTIVE:* Reference materials in =footnote= with =orgmode= on =github=
 -----
@@ -78,7 +78,7 @@ CLOSED: [2025-07-29 Tue 21:45] DEADLINE: <2025-07-29 Tue>
   - [[https://github.com/kmaasrud/wiki/blob/main/Action.md][Footnote reference example @Github]]
   - [[https://github.com/github/markup/issues/1094][Github orgmode footnote not properly supported @Github-issue]]
   - [[https://github.com/wallyqs/org-ruby/issues/2][Org-ruby add footnote support @Github-issue]]
-** DONE Orgmode inline language :ORGMODE:GITHUB:
+** DONE Orgmode inline language :@Orgmode:@Github:
 CLOSED: [2025-07-29 Tue 22:24] DEADLINE: <2025-07-29 Tue>
 - *OBJECTIVE:* Write inline source code block
 -----
@@ -87,10 +87,10 @@ CLOSED: [2025-07-29 Tue 22:24] DEADLINE: <2025-07-29 Tue>
   - Github does not seem to support inline language code block
 -----
 - *Reference:* [[https://github.com/nvim-orgmode/orgmode/issues/653][Inline source code block @Github-issue]]
-** PEND Initialize github.io :GITHUB:PKM:
+** PEND Initialize github.io :@Github:PKM:
 - *OBJECTIVE:* Create a functional github.io page for hosting my =PKM=
 - *Reference:* [[https://docs.github.com/en/pages/quickstart#creating-your-website][Create your website @Github-doc]]
-** DONE Testing image render :ORGMODE:ORGZlY:GITHUB:mathrender:
+** DONE Testing image render :@Orgmode:ORGZlY:@Github:MathRender:
 CLOSED: [2026-01-27 Tue 04:51] DEADLINE: <2026-01-27 Tue>
 - *OBJECTIVE:* Find an image syntax that works on both github and orgzly
 -----
@@ -103,7 +103,7 @@ CLOSED: [2026-01-27 Tue 04:51] DEADLINE: <2026-01-27 Tue>
     #+END_SRC
   + Exclude root dir from filepath with =vim.gsub= to obtain a relative dir to target =asset=
 -----
-*** DONE Github org-parse Images :PANDOC:
+*** DONE Github org-parse Images :@Pandoc:
 CLOSED: [2026-01-27 Tue 04:53] DEADLINE: <2026-01-27 Tue>
 - *OBJECTIVE:* 
   + [X] Testing if =org-ruby= parser on github render images with =attributes=
@@ -129,7 +129,7 @@ CLOSED: [2026-01-27 Tue 04:53] DEADLINE: <2026-01-27 Tue>
 #+end_src
 
 - *Reference:* [[https://github.com/fniessen/refcard-org-mode/tree/master][Orgmode ref card @Org]]
-** PEND Manage Dotfiles with Gitbare :GIT:GITHUB:
+** PEND Manage Dotfiles with Gitbare :@Git:@Github:
 - *OBJECTIVE:* Mange files using a gitbare repo
 - *Reference:* [[https://www.youtube.com/watch?v=tBoLDpTWVOM#__preview][Git Bare Repository @Youtube-DT]]
 ** DONE Find a Suitable Search Engine :SEARCHENGINE:
@@ -145,7 +145,7 @@ CLOSED: [2025-11-26 Wed 04:36] DEADLINE: <2025-11-26 Wed 12:30>
 *** DONE Config SearXNG :SEARXNG:
 CLOSED: [2025-11-27 Thu 20:46] DEADLINE: <2025-11-27 Thu 12:30>
 - *OBJECTIVE:* Learn =syntax= and config =searxng=
-** ABRT Testing Mermaid Render on Github :GITHUB:ORGMODE:MERMAID:
+** ABRT Testing Mermaid Render on Github :@Github:@Orgmode:MERMAID:
 DEADLINE: <2026-02-08 Sun> CLOSED: [2026-02-08 Sun 03:27]
 :PROPERTIES:
 :ID: d4fc0bcb-69b8-4dc2-ac79-789bf38c1906

@@ -4,8 +4,8 @@
 
 #+OPTIONS: todo:t tags:nil tasks:t ^:nil toc:nil
 #+TODO: OPEN(y) (e) PROG(g) INTR(q) NEXT(n) | ABRT(a) DONE(f) CLSD(c)
-* Trackers List :PLATFORM:%Tracker:meta:
-** OPEN Oh-my-opencode Workflow :AI:OPENCODE:ENHANCMENT:
+* Trackers List :PLATFORM:typTracker:meta:
+** OPEN Oh-my-opencode Workflow :AI:@OpenCode:ENHANCMENT:
 :PROPERTIES:
 :ID: 96afbe1c-75c2-4788-85b4-018f4aa312ba
 :END:
