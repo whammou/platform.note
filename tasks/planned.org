@@ -117,7 +117,7 @@ DEADLINE: <2026-03-11 Wed> CLOSED: [2026-03-12 Thu 19:59]
 :ID: fe60ee21-acdb-499c-b18a-ceab141d28b0
 :END:
 - *OBJECTIVE:*  Implement =opencode-omo= workflow
-- *Tracker:*    [[id:96afbe1c-75c2-4788-85b4-018f4aa312ba][Oh-my-OpenAgent @Tracker]]
+- *Tracker:*    [[id:96afbe1c-75c2-4788-85b4-018f4aa312ba][Oh-my-OpenAgent @Issue]]
 **** TODO Opencode-omo Nvim Integration :@Nvim:
 :PROPERTIES:
 :ID: e2540ade-e07e-434c-b325-7d14b14196d6
@@ -134,5 +134,5 @@ DEADLINE: <2026-03-11 Wed> CLOSED: [2026-03-12 Thu 19:59]
 :END:
 - *OBJECTIVE:*  Config and run a =git-mcp= server
 - *Reference:*  [[https://www.npmjs.com/package/@cyanheads/git-mcp-server][Git-mcp Server @Npm-doc]]
-- *Tracker:*   [[id:a6d561b7-dc6e-4604-bc9b-a6827afa519d][Self-host MCP Server @Tracker]]
+- *Tracker:*   [[id:a6d561b7-dc6e-4604-bc9b-a6827afa519d][Self-host MCP Server @Issue]]
 
