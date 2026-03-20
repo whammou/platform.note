@@ -158,18 +158,18 @@ DEADLINE: <2026-02-08 Sun> CLOSED: [2026-02-08 Sun 03:27]
 #+html:</details>
 - *OBJECTIVE:*  Testing =mermaid= render on =github= using =orgmode=
 - *Reference:*  [[https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/creating-diagrams][Github creating diagram @Github-doc]]
-#+BEGIN_MERMAID
+#+BEGIN_SRC mermaid
 graph TD;
     A-->B;
     A-->C;
     B-->D;
     C-->D;
-#+END_MERMAID
+#+END_SRC
 
-#+begin_mermaid
+#+begin_src mermaid
 graph TD;
     A-->B;
     A-->C;
     B-->D;
     C-->D;
-#+end_mermaid
+#+end_src
