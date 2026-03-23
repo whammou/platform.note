@@ -173,7 +173,7 @@ graph TD;
     B-->D;
     C-->D;
 #+end_src
-** TODO Investigate Desec :@Desec:
+** TODO Investigate DeSec :@DeSec:
 :PROPERTIES:
 :ID: a45e7440-e6f0-4b47-aa6c-3ed97673cf5f
 :END:
