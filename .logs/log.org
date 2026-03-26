@@ -5,11 +5,11 @@
 
 * Logs :LOG:PLATFORM:
 - /Store finished tasks/
-** DONE Setting Gdrive scope :_Drive:@Rclone:
+** DONE Setting Gdrive scope :_Drive:subRclone:
 CLOSED: [2025-07-17 Thu 08:23] DEADLINE: <2025-07-17 Thu>
 - *OBJECTIVE:* Setting up =gdrive= working scope for =rclone=
 - *Reference:* [[https://rclone.org/drive/#scopes][Google drive scope @Rclone-doc]]
-** DONE Overhaul Note repo [100%] :@Orgmode:@Github:
+** DONE Overhaul Note repo [100%] :subOrgmode:subGithub:
 CLOSED: [2025-05-13 Tue 18:11] DEADLINE: <2025-05-13 Tue 20:00>
 - *Goal(s):* update note repo structure for more optimal workflow
 - *NOTE:* checkout [[./README.org][README]] and find a suitable repo structure
@@ -25,7 +25,7 @@ CLOSED: [2025-05-13 Tue 18:11]
 - *Objective:* optimize ~archive~ hierarchy
 ** DONE Orgmode social media integrate
 CLOSED: [2025-06-25 Wed 13:03]
-** DONE Test quote block render :@Orgmode:@Github:
+** DONE Test quote block render :subOrgmode:subGithub:
 CLOSED: [2025-07-26 Sat 18:39]
 - *OBJECTIVE:* Test orgmode quote with github flavor
   -----

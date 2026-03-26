@@ -3,7 +3,7 @@
 #+TITLE: Platform Planned Tasks
 
 * List of Planned Tasks :typTask:catPlanned:PLATFORM:meta:
-** TODO Write Github Actions Workflow :@Github:GithubActions:
+** TODO Write Github Actions Workflow :subGithub:GithubActions:
 :PROPERTIES:
 :ID:       ba475a5e-f6b8-44fa-943e-979569b80c4e
 :END:
@@ -51,12 +51,12 @@ CLOSED: [2025-10-31 Fri 21:49] DEADLINE: <2025-10-31 Fri>
 :END:
 #+html:</details>
 - *Reference:* [[https://github.com/orgs/community/discussions/68735][Script belongs to reusable repo @Github-doc]]
-** TODO Gdrive shareable-link on Github :_Drive:@Github:
+** TODO Gdrive shareable-link on Github :_Drive:subGithub:
 - *OBJECTIVE:*
   + Test =gdrive-link= render in =orgmode= on =github=
   + Consider if =gdrive= is a good place to store =asset=
 - *Visit:* [[id:d429546e-1ada-4fff-b364-4a8743a4643c][Get gdrive shareable link @Org]]
-** EXPL Managing Secrets on Github :@Github:credentialmanagement:
+** EXPL Managing Secrets on Github :subGithub:credentialmanagement:
 - *OBJECTIVE:* Storing =secrets= on my =dotfiles=
 - *Check-out:* [[id:ccac12ba-197b-4bfc-a022-fdc074922ee2][Storing secrets in git @Org]]
 *** Secrets Management Solutions
@@ -67,7 +67,7 @@ CLOSED: [2025-10-31 Fri 21:49] DEADLINE: <2025-10-31 Fri>
 :END:
 - *OBJECTIVE:* Config subdomain using =nginx= and =ddns= (e.g. =noip.com=)
 - *Reference:* [[https://superuser.com/questions/1569596/how-do-i-configure-subdomains-with-nginx-and-ddns][Config subdomain with nginx and DDNS @Overflow]]
-** DONE Uniform Latex Block on Github and in Orgmode :@Github:@Orgmode:MathRender:
+** DONE Uniform Latex Block on Github and in Orgmode :subGithub:subOrgmode:MathRender:
 CLOSED: [2026-01-13 Tue 14:44] DEADLINE: <2026-01-13 Tue>
 #+name:LOGBOOK
 #+html:<details><summary>LOGBOOK</summary>
@@ -99,13 +99,13 @@ CLOSED: [2026-01-13 Tue 14:44] DEADLINE: <2026-01-13 Tue>
   #+BEGIN_SRC math
   x_2^3 + \int \frac{x_2^3}{x_3^1}\,dx
   #+END_SRC
-** TODO Create Template Repository :@Github:
+** TODO Create Template Repository :subGithub:
 :PROPERTIES:
 :ID:       f7d2e03d-db00-4afd-8eaf-fd914aff5c16
 :END:
 - *OBJECTIVE:*  Create a github template =repository=
 - *Reference:*  [[https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-template-repository][Creating a template repository @Github-doc]]
-** PRTL Oh-My-Opencode Plugin Investigation :@OpenCode:
+** PRTL Oh-My-Opencode Plugin Investigation :subOpenCode:
 DEADLINE: <2026-03-11 Wed> CLOSED: [2026-03-12 Thu 19:59]
 :PROPERTIES:
 :ID:       df528fae-5556-43af-b471-f0fc6fa36103
@@ -118,17 +118,17 @@ DEADLINE: <2026-03-11 Wed> CLOSED: [2026-03-12 Thu 19:59]
 :END:
 - *OBJECTIVE:*  Implement =opencode-omo= workflow
 - *Tracker:*    [[id:96afbe1c-75c2-4788-85b4-018f4aa312ba][Oh-my-OpenAgent @Issue]]
-**** TODO Opencode-omo Nvim Integration :@Nvim:
+**** TODO Opencode-omo Nvim Integration :subNvim:
 :PROPERTIES:
 :ID: e2540ade-e07e-434c-b325-7d14b14196d6
 :END:
 - *OBJECTIVE:*  Implement a workflow with =neovim=
-**** TODO Opencode-omo Kitty Integration :@Kitty:
+**** TODO Opencode-omo Kitty Integration :subKitty:
 :PROPERTIES:
 :ID: 5d39c1f0-f473-4ba8-b87c-f12b2c8d1346
 :END:
 - *OBJECTIVE:*  Implement a workflow with =kitty-session=
-** TODO Run MCP Server :@OpenCode:AI:
+** TODO Run MCP Server :subOpenCode:AI:
 :PROPERTIES:
 :ID: 441c26be-17cd-4776-8f70-e15ef9ccaa53
 :END:

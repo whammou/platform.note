@@ -6,10 +6,10 @@
 
 #+OPTIONS: title:nil tags:nil todo:nil ^:nil f:t num:t pri:nil toc:t
 #+TODO: TODO(t) (e) DOIN(d) PEND(p) OUTL(o) EXPL(x) FDBK(b) WAIT(w) NEXT(n) IDEA(i) | ABRT(a) PRTL(r) RVIW(v) DONE(f)
-#+FILETAGS: :typDoc:@Project:@Github:@Orgmode:PLATFORM:
+#+FILETAGS: :typDoc:subProject:subGithub:subOrgmode:PLATFORM:
 #+HTML:<details>
 
-* DONE Github Render Tests [100%] :typDoc:meta:@Github:@Orgmode:PLATFORM:
+* DONE Github Render Tests [100%] :typDoc:meta:subGithub:subOrgmode:PLATFORM:
 CLOSED: [2025-06-19 Thu 20:52]
 #+HTML:</details>
 :PROPERTIES:

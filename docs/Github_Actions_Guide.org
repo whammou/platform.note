@@ -5,9 +5,9 @@
 
 #+OPTIONS: title:nil tags:nil todo:nil ^:nil f:t num:t pri:nil toc:t
 #+TODO: TODO(t) (e) DOING(d) PEND(p) OUTL(o) RESEARCH(s) FEEDBACK(b) WAITING(w) NEXT(n) | IDEA(i) ABORTED(a) PARTIAL(r) REVIEW(v) DONE(f)
-#+FILETAGS: :typDoc:meta:@Git:GithubActions:
+#+FILETAGS: :typDoc:meta:subGit:GithubActions:
 #+HTML:<details>
 
-* Github Actions Guide :typDoc:meta:@Git:GithubActions:
+* Github Actions Guide :typDoc:meta:subGit:GithubActions:
 #+HTML:</details>
 
