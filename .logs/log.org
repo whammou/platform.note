@@ -5,7 +5,7 @@
 
 * Logs :LOG:PLATFORM:
 - /Store finished tasks/
-** DONE Setting Gdrive scope :_Drive:subRclone:
+** DONE Setting Gdrive scope :opDrive:subRclone:
 CLOSED: [2025-07-17 Thu 08:23] DEADLINE: <2025-07-17 Thu>
 - *OBJECTIVE:* Setting up =gdrive= working scope for =rclone=
 - *Reference:* [[https://rclone.org/drive/#scopes][Google drive scope @Rclone-doc]]

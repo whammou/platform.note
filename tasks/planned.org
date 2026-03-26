@@ -51,7 +51,7 @@ CLOSED: [2025-10-31 Fri 21:49] DEADLINE: <2025-10-31 Fri>
 :END:
 #+html:</details>
 - *Reference:* [[https://github.com/orgs/community/discussions/68735][Script belongs to reusable repo @Github-doc]]
-** TODO Gdrive shareable-link on Github :_Drive:subGithub:
+** TODO Gdrive shareable-link on Github :opDrive:subGithub:
 - *OBJECTIVE:*
   + Test =gdrive-link= render in =orgmode= on =github=
   + Consider if =gdrive= is a good place to store =asset=
