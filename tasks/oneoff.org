@@ -185,7 +185,6 @@ DEADLINE: <2026-03-29 Sun>
 :ID: dbbf26e3-dbee-4c71-bd0b-1fbb56d97b61
 :END:
 - *OBJECTIVE:*  Testing self-hosting assets site via =webdav=
-  
-  #+begin_html html
-  <img src="https://media.whammou.dedyn.io/Journal/assets/balance-sheet.png" style="width:50%;"/>
-  #+end_html
+#+begin_html html
+<img src="https://media.whammou.dedyn.io/Journal/assets/balance-sheet.png" style="width:50%;"/>
+#+end_html
