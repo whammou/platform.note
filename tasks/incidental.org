@@ -3,19 +3,6 @@
 #+TITLE: Platform Incidental Tasks
 
 * List of Incidental Tasks :typTask:catIncidental:PLATFORM:meta:
-** DONE [#A] Unify Resource Path :subPandoc:subGithub:subOrgmode:
-DEADLINE: <2026-01-28 Wed> CLOSED: [2026-01-28 Wed 17:10]
-#+name:LOGBOOK
-#+html:<details><summary>LOGBOOK</summary>
-:LOGBOOK:
-- Note taken on [2026-01-28 Wed 17:10] \\
-  Using =relative-path= if possible as =repo-root= /= =system-root=
-:END:
-#+html:</details>
-- *OBJECTIVE:*  Get Parser to agree on the same =resource-path= or =resource-link=
-- *Reference:*
-  + [[https://github.com/jgm/pandoc/issues/3752][Relative image working directory @Github-pandoc-issue]]
-  + [[shell:man 1 pandoc][Pandoc man page @Manpage]]
 ** DONE Testing Inline Math Render :subGithub:subPandoc:MathRender:
 DEADLINE: <2026-01-31 Sat> CLOSED: [2026-01-31 Sat 18:01]
 :PROPERTIES:
