@@ -4,8 +4,8 @@
 
 #+OPTIONS: todo:t tags:nil tasks:t ^:nil toc:nil
 #+TODO: OPEN(y) (e) PROG(g) INTR(q) NEXT(n) | ABRT(a) DONE(f) CLSD(c)
-* Issues List :PLATFORM:typDev:catIssue:meta:
-** OPEN Oh-my-opencode Workflow :AI:subOpenCode:ENHANCMENT:
+#+FILETAGS: :PLATFORM:typDev:catIssue:
+* OPEN Oh-my-opencode Workflow :AI:subOpenCode:ENHANCMENT:
 :PROPERTIES:
 :ID: 96afbe1c-75c2-4788-85b4-018f4aa312ba
 :END:
@@ -13,24 +13,24 @@ Implementation for =nvim= and =kitty=
 - [X] =neovim= integration using =folke/sidekick=
 - [ ] =kitty= integration
 - *Reference:*  [[id:1d233750-6262-4534-ab1e-ecbb62b94334][A Guide to AI @Doc]]
-*** Install Opencode MCP Server
+** Install Opencode MCP Server
 :PROPERTIES:
 :ID: b2bfe2a0-afb0-46db-a991-07b6f6566353
 :END:
 - [ ] Config =MCP= remote server
 - [ ] Usage =MCP= remote server
 - *Reference:*  [[id:b51a90a4-52da-4ab3-870d-9e26413e424f][MCP Server Config @Doc]]
-*** Writing Agent Skills
+** Writing Agent Skills
 :PROPERTIES:
 :ID: 9383fbec-3f01-45b7-973d-ba9148078185
 :END:
-*** Session Management
+** Session Management
 :PROPERTIES:
 :ID: fd9d19bc-b107-4a80-8b0e-aaff1cc3b734
 :END:
 Opencode session management \\
 Reference:  [[https://deepwiki.com/opencode-ai/opencode/5.2-session-management][Opencode session management @Deepwiki]]
-** OPEN Self-host MCP Server :FEATURE:
+* OPEN Self-host MCP Server :FEATURE:
 DEADLINE: <2026-03-14 Sat>
 :PROPERTIES:
 :ID: a6d561b7-dc6e-4604-bc9b-a6827afa519d
