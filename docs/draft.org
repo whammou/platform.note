@@ -3,7 +3,7 @@
 #+TODO: TODO(t) (e) DOIN(d) PROG(g) PEND(p) OUTL(o) EXPL(x) FDBK(b) WAIT(w) NEXT(n) IDEA(i) | ABRT(a) PRTL(r) RVIW(v) DONE(f)
 #+OPTIONS: title:nil tags:nil todo:nil ^:nil f:t num:t pri:nil toc:t
 #+FILETAGS: :typDoc:catDraft:PLATFORM:
-* OUTL Orgmode github hacks :subOrgmode:subGithub:
+* OUTL [#A] Orgmode github hacks :subOrgmode:subGithub:
 :PROPERTIES:
 :ID:       efbdb9d4-436c-4736-b29f-d85d8c4263c7
 :END:
@@ -15,7 +15,7 @@
 - *Reference:*
   - [[https://github.com/noncog/github-org-mode-hacks][Orgmode github hacks @Github]]
   - [[https://github.com/fniessen/refcard-org-mode][Orgmode Reference Card @Github]]
-* WAIT Github Actions :subGithub:GithubActions:
+* WAIT [#A] Github Actions :subGithub:GithubActions:
 DEADLINE: <2026-02-09 Mon>
 /goto: [[id:2d5fffc1-20cd-45f8-994b-638481352951][A Guide to Git @Org]]/
 *Github Actions* is a [[id:0ed7cc0d-f624-4dc3-b186-a7b3818d57f4][Continuous Integration and Continuous Delivery @Org]] platform that allows you to automate =build=, =test=, and =deploy=. You can create workflows that build and test every pull request or deploy merged pull requests to production

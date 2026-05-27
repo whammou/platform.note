@@ -4,19 +4,14 @@
 :END:
 #+TITLE: Github Render Tests
 
-#+OPTIONS: title:nil tags:nil todo:nil ^:nil f:t num:t pri:nil toc:t
+#+OPTIONS: title:t tags:nil todo:nil ^:nil f:t num:t pri:nil toc:t
 #+TODO: TODO(t) (e) DOIN(d) PROG(g) PEND(p) OUTL(o) EXPL(x) FDBK(b) WAIT(w) NEXT(n) IDEA(i) | ABRT(a) PRTL(r) RVIW(v) DONE(f)
 #+FILETAGS: :typDoc:subProject:subGithub:subOrgmode:PLATFORM:
-#+HTML:<details>
-
-* DONE Github Render Tests [100%] :typDoc:meta:subGithub:subOrgmode:PLATFORM:
-CLOSED: [2025-06-19 Thu 20:52]
-#+HTML:</details>
 :PROPERTIES:
 :ID:       7fd3eabc-0cd2-43bb-b3b3-a31c018163b2
 :END:
 - *OBJECTIVE:* Testing github render for orgmode
-** PRTL Testing math render :LATEX:
+* PRTL [#A] Testing math render :LATEX:
 CLOSED: [2025-06-19 Thu 02:07]
 - *OBJECTIVE:* Testing markup and math render on github
   - This is inline math block: $\omega_{av} = \frac{\theta_f - \theta_i}{t_f - t_i} = \frac{\Delta \theta}{\Delta t}$
@@ -30,7 +25,7 @@ CLOSED: [2025-06-19 Thu 02:07]
 - *Complication:* Render orgmode mathmode error
   - [[https://ao.bloat.cat/exchange/tex.stackexchange.com/questions/74969/how-to-make-the-limit-mathematics-sign][latex display mode @Overflow]]
 - *Reference:* [[https://ao.bloat.cat/exchange/stackoverflow.com/questions/31534084/how-can-i-get-github-to-display-inline-math-in-readme-org-file#79302884][State of orgmode in github @Overflow]]
-** DONE Testing html render :HTML:
+* DONE [#A] Testing html render :HTML:
 CLOSED: [2025-06-15 Sun 21:32] DEADLINE: <2025-06-15 Sun>
 - [X] *OBJECTIVE:* Testing html render with math on github render [3/3]
   - [X] Center images
@@ -66,7 +61,7 @@ $$\omega = \lim^2_{\Delta t \to 0} \frac{\Delta \theta}{\Delta t}$$
 - *Reference:*
   - [[id:6440266f-57df-40e2-a9e2-8d0867fcf9f2][Working with html @Orgmode]]
   - [[id:8506cc5d-a3e8-4d18-94aa-87ceb7a8c932][Treesitter highlight @Orgmode]]
-** DONE Relative links
+* DONE [#A] Relative links
 CLOSED: [2025-06-19 Thu 20:52]
 - *OBJECTIVE:* Determine how to link between notes on github page
 - *Complication:* Relative links (links with id:) do not work on github render
