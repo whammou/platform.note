@@ -17,10 +17,10 @@ CLOSED: [2025-06-19 Thu 02:07]
   - This is inline math block: $\omega_{av} = \frac{\theta_f - \theta_i}{t_f - t_i} = \frac{\Delta \theta}{\Delta t}$
   #+html: <div align='center'>$$\omega_av = \frac{\theta_f - \theta_i}{t_f - t_i} = \frac{\Delta \theta}{\Delta t}$$</div>
   - This is inline math block: $\omega^2 = \omega^2_i + 2 \alpha \Delta \theta$
-  $$ \omega^2 = \omega^2_i + 2 \alpha \Delta \theta $$
+  $ \omega^2 = \omega^2_i + 2 \alpha \Delta \theta $
   - This is inline math block: $\omega = \lim_{\Delta t \to 0} \frac{\Delta \theta}{\Delta t}$
-  $$\omega = \lim_{\Delta t \to 0} \frac{\Delta \theta}{\Delta t}$$
-  $$m_1 v_{1ix} + m_2 v_{2ix} = m_1 v_{1 \mathord{\mathit{f}} x} + m_2 v_{2 \mathord{\mathit{f}} x}$$
+  $\omega = \lim_{\Delta t \to 0} \frac{\Delta \theta}{\Delta t}$
+  $m_1 v_{1ix} + m_2 v_{2ix} = m_1 v_{1 \mathord{\mathit{f}} x} + m_2 v_{2 \mathord{\mathit{f}} x}$
   
 - *Complication:* Render orgmode mathmode error
   - [[https://ao.bloat.cat/exchange/tex.stackexchange.com/questions/74969/how-to-make-the-limit-mathematics-sign][latex display mode @Overflow]]
