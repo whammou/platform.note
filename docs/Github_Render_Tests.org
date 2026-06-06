@@ -6,10 +6,7 @@
 
 #+OPTIONS: title:t tags:nil todo:nil ^:nil f:t num:t pri:nil toc:t
 #+TODO: TODO(t) (e) DOIN(d) PROG(g) PEND(p) OUTL(o) EXPL(x) FDBK(b) WAIT(w) NEXT(n) IDEA(i) | ABRT(a) PRTL(r) RVIW(v) DONE(f)
-#+FILETAGS: :typDoc:subProject:subGithub:subOrgmode:PLATFORM:
-:PROPERTIES:
-:ID:       7fd3eabc-0cd2-43bb-b3b3-a31c018163b2
-:END:
+#+FILETAGS: :PLATFORM:typDoc:subProject:subGithub:subOrgmode:
 - *OBJECTIVE:* Testing github render for orgmode
 * PRTL [#A] Testing math render :LATEX:
 CLOSED: [2025-06-19 Thu 02:07]
