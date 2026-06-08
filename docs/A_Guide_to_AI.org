@@ -53,6 +53,35 @@ The CLI ships with standalone binaries for all major platforms. No runtime (Bun/
 :END:
 Instead of having one agent doing everything. =OhMyOpencode= uses *specialized agents that delegate to each other* based on task type
 
+#+name: oh-my-openagent workflow
+#+begin_src mermaid
+flowchart TD
+    %% Nodes
+    User([User Trigger])
+    Sisyphus{Sisyphus Agent}
+    Prometheus[Prometheus: Plan Generation]
+    Metis[Metis: Plan Consultation]
+    Delegation{Task Delegation}
+    Agents[Specialized Agents]
+    Tools[MCP Tools]
+    Synthesis[Result Synthesis]
+    Output([Final Output])
+
+    %% Flow
+    User --> Sisyphus
+    Sisyphus --> Prometheus
+    Prometheus <--> Metis
+    Prometheus --> Sisyphus
+    Sisyphus --> Delegation
+    Delegation --> Agents
+    Agents <--> Tools
+    Agents --> Synthesis
+    Synthesis --> Sisyphus
+    Sisyphus -->|If needed| Sisyphus
+    Sisyphus --> Output
+#+end_src
+
+#+name: Workflow overview
 #+BEGIN_SRC txt
 User Request
     ↓
