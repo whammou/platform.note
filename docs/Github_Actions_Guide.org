@@ -2,7 +2,6 @@
 :ID: 35a8ba1e-3ccb-4875-ac73-be36cb7b87cd
 :END:
 #+TITLE: Github Actions Guide
-
 #+OPTIONS: title:t tags:nil todo:nil ^:nil f:t num:t pri:nil toc:t
 #+TODO: TODO(t) (e) DOIN(d) PROG(g) PEND(p) OUTL(o) EXPL(x) FDBK(b) WAIT(w) NEXT(n) IDEA(i) | ABRT(a) PRTL(r) RVIW(v) DONE(f)
 #+FILETAGS: :topPlatform:typDoc:meta:subGit:GithubActions:
