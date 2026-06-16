@@ -1,0 +1,18 @@
+#+OPTIONS: todo:t tags:nil tasks:t ^:nil toc:nil
+#+FILETAGS: :typArchive:typTask:catPlanned:
+* DONE Learn Github Actions Syntax
+CLOSED: [2025-10-30 Thu 20:48] DEADLINE: <2025-10-30 Thu>
+:PROPERTIES:
+:ARCHIVE_TIME: 2026-06-16 Tue 17:38
+:ARCHIVE_FILE: /home/whammou/.local/share/orgmode/platform/tasks/planned.org
+:ARCHIVE_OLPATH: Write Github Actions Workflow
+:ARCHIVE_CATEGORY: planned
+:ARCHIVE_TODO: DONE
+:END:
+- *OBJECTIVE:* Learn =github-actions= syntax
+-----
+- Note taken on [2025-10-30 20:48]: \\
+  =gh-actions= uses =yaml= as config language to setup a =workflow=. Visit: [[id:48441bbc-d7a0-42ff-b590-bcf9497d57ef][Learn yaml Syntax @Org]] for extra inforamtion on =yaml= language
+-----
+- *Reference:* [[https://docs.github.com/en/actions/tutorials/create-an-example-workflow]]
+- *Visit:* [[id:eaa374cf-cc90-40a7-b151-c23968cd7c69][Github Actions Basic Workflow @Org]]

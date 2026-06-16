@@ -1,6 +1,7 @@
 #+OPTIONS: todo:t tags:nil tasks:t ^:nil toc:nil
 $
 #+FILETAGS: :typArchive:typTask:catOneoff:
+$
 * DONE Github repo updates track :subGithub:
 CLOSED: [2025-09-06 Sat 20:09]
 :PROPERTIES:
@@ -149,3 +150,16 @@ CLOSED: [2025-11-26 Wed 04:36] DEADLINE: <2025-11-26 Wed 12:30>
 ** DONE Config SearXNG :SEARXNG:
 CLOSED: [2025-11-27 Thu 20:46] DEADLINE: <2025-11-27 Thu 12:30>
 - *OBJECTIVE:* Learn =syntax= and config =searxng=
+* DONE Test HTTP Assets :subHTTP:subWebdav@subAsset:
+DEADLINE: <2026-03-29 Sun> CLOSED: [2026-03-30 Mon 17:53]
+:PROPERTIES:
+:ID: dbbf26e3-dbee-4c71-bd0b-1fbb56d97b61
+:ARCHIVE_TIME: 2026-06-16 Tue 17:38
+:ARCHIVE_FILE: /home/whammou/.local/share/orgmode/platform/tasks/oneoff.org
+:ARCHIVE_CATEGORY: oneoff
+:ARCHIVE_TODO: DONE
+:END:
+- *OBJECTIVE:*  Testing self-hosting assets site via =webdav=
+#+begin_html html
+<img src="https://media.whammou.dedyn.io/Journal/assets/balance-sheet.png" style="width:50%;"/>
+#+end_html

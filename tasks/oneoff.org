@@ -43,19 +43,6 @@ CLOSED: [2025-09-06 Sat 21:10] DEADLINE: <2025-09-06 Sat>
 * PEND Manage Dotfiles with Gitbare :subGit:subGithub:
 - *OBJECTIVE:* Mange files using a gitbare repo
 - *Reference:* [[https://www.youtube.com/watch?v=tBoLDpTWVOM#__preview][Git Bare Repository @Youtube-DT]]
-* DONE Find a Suitable Search Engine :SEARCHENGINE:
-CLOSED: [2025-11-26 Wed 04:36] DEADLINE: <2025-11-26 Wed 12:30>
-#+name:LOGBOOK
-#+html:<details><summary>LOGBOOK</summary>
-:LOGBOOK:
-- Note taken on [2025-11-26 Wed 04:36] \\
-  =searxng= support both /internal/ and /external/ redirect along with many more customizable =categories= and variety of syntax support
-:END:
-#+html:</details>
-- *OBJECTIVE:* Find a more suitable search engine than =google=
-** DONE Config SearXNG :SEARXNG:
-CLOSED: [2025-11-27 Thu 20:46] DEADLINE: <2025-11-27 Thu 12:30>
-- *OBJECTIVE:* Learn =syntax= and config =searxng=
 * ABRT Testing Mermaid Render on Github :subGithub:subOrgmode:MERMAID:
 DEADLINE: <2026-02-08 Sun> CLOSED: [2026-02-08 Sun 03:27]
 :PROPERTIES:
@@ -91,12 +78,3 @@ graph TD;
 :END:
 - *OBJECTIVE:*  Investigate =desec= free DNS provider
 - *Reference:*  
-* DONE Test HTTP Assets :subHTTP:subWebdav@subAsset:
-DEADLINE: <2026-03-29 Sun> CLOSED: [2026-03-30 Mon 17:53]
-:PROPERTIES:
-:ID: dbbf26e3-dbee-4c71-bd0b-1fbb56d97b61
-:END:
-- *OBJECTIVE:*  Testing self-hosting assets site via =webdav=
-#+begin_html html
-<img src="https://media.whammou.dedyn.io/Journal/assets/balance-sheet.png" style="width:50%;"/>
-#+end_html
