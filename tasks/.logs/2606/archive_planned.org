@@ -16,3 +16,60 @@ CLOSED: [2025-10-30 Thu 20:48] DEADLINE: <2025-10-30 Thu>
 -----
 - *Reference:* [[https://docs.github.com/en/actions/tutorials/create-an-example-workflow]]
 - *Visit:* [[id:eaa374cf-cc90-40a7-b151-c23968cd7c69][Github Actions Basic Workflow @Org]]
+* DONE Reusable Actions Script
+CLOSED: [2025-10-31 Fri 21:49] DEADLINE: <2025-10-31 Fri>
+:PROPERTIES:
+:ARCHIVE_TIME: 2026-06-16 Tue 17:38
+:ARCHIVE_FILE: /home/whammou/.local/share/orgmode/platform/tasks/planned.org
+:ARCHIVE_OLPATH: Write Github Actions Workflow/Call Reusable Actions
+:ARCHIVE_CATEGORY: planned
+:ARCHIVE_TODO: DONE
+:END:
+- *OBJECTIVE:* How to write a reusable script for reusable actions
+#+name:LOGBOOK
+#+html:<details><summary>LOGBOOK</summary>
+:LOGBOOK:
+- Note taken on [2025-10-31 Fri 22:08] \\
++ *Issue:* Limitation includes calling script from =usable workflow=
++ *Checkout:* [[id:74c9bdcc-d59f-4bc1-849a-55d518f9fad4][Reusable Workflow Script @Org]]
+:END:
+#+html:</details>
+- *Reference:* [[https://github.com/orgs/community/discussions/68735][Script belongs to reusable repo @Github-doc]]
+* DONE Uniform Latex Block on Github and in Orgmode :subGithub:subOrgmode:MathRender:
+CLOSED: [2026-01-13 Tue 14:44] DEADLINE: <2026-01-13 Tue>
+:PROPERTIES:
+:ARCHIVE_TIME: 2026-06-16 Tue 17:38
+:ARCHIVE_FILE: /home/whammou/.local/share/orgmode/platform/tasks/planned.org
+:ARCHIVE_CATEGORY: planned
+:ARCHIVE_TODO: DONE
+:END:
+#+name:LOGBOOK
+#+html:<details><summary>LOGBOOK</summary>
+:LOGBOOK:
+- Note taken on [2026-01-13 Tue 14:44] \\
+  Using =\$\$= as syntax for both /inline/ and /block/ syntax
+:END:
+#+html:</details>
+- *OBJECTIVE:* Find a uniform syntax to write =math= expressions and equations on =Github= and in =nvim-orgmode=
+- *Reference:*
+  + [[https://github.com/nvim-orgmode/orgmode/pull/1059][Support for inline math @Github-issue]]
+  + [[https://github.com/folke/snacks.nvim/blob/main/docs/image.md][Snack image config @Github]]
+** DONE Testing Math Syntax on Github
+CLOSED: [2026-01-13 Tue 14:44] DEADLINE: <2026-01-13 Tue>
+- *OBJECTIVE:* Testing the math rendering syntax on =Github=
+  + This test looks fine on =nvim-orgmode=
+  Here is a test: \( a \) $$a$$
+
+
+  \[
+  x + 2 =3
+  \]
+
+
+  This line contains inline math with double empty line: $$x_2^3 + \int \frac{x_2^3}{x_3^1}\,dx$$
+
+
+  #+NAME: Latex math Block
+  #+BEGIN_SRC math
+  x_2^3 + \int \frac{x_2^3}{x_3^1}\,dx
+  #+END_SRC
