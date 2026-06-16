@@ -7,13 +7,6 @@ Organize ~scripts~ in ~/scipts~ and ~scripts~ in ~$PATH~
 - [ ] Organize ~/scripts~
 - [ ] Oragnize [[file:/home/whammou/notes/capture.org:topNote:*Qtile scripts][qtile]] scripts
 - [ ] Oragnize ~$PATH~
-* ABRT Github wiki :subGithub:
-CLOSED: [2025-09-06 Sat 20:09]
-- *OBJECTIVE:* learn to write a github wiki page
------
-- *[NOTE]* taken on [2025-09-06 20:09]: \\
-  Wiki is not needed for a =pkm= system as wiki is the way to take notes within a functional repo. That is essentially a =pkm= repo
------
 * PEND Update github profile :subGithub:
 :PROPERTIES:
 :ID:       2b2eaa80-2103-4ecb-b5d2-4e1f8893d901
@@ -44,14 +37,6 @@ CLOSED: [2025-09-06 Sat 21:10] DEADLINE: <2025-09-06 Sat>
 * PEND Advanced search Github :subGithub:
 - *OBJECTIVE:* Learn avanced search technique on github
 - *Reference:* [[https://www.freecodecamp.org/news/github-search-tips/][Github advanced search tips @Freecodecamp]]
-* DONE Create issue on nvim-orgmode (vim-regex) :subGithub:topPackages:subNvim:subOrgmode:
-CLOSED: [2025-07-14 Mon 11:07] DEADLINE: <2025-07-14 Mon>
-- *OBJECTIVE:* Create an issue on latex syntax does not load on nvim first launch
-- *Visit:* [[https://github.com/nvim-orgmode/orgmode/issues][Issue nvim-orgmode @Github]]
-* DONE Setup rclone mega :subRclone:MEGANZ:
-CLOSED: [2025-07-18 Fri 17:17] DEADLINE: <2025-07-18 Fri>
-- *OBJECTIVE:* Setup rclone to sync with mega-nz cloud platfoem
-- *Reference:* [[https://help.mega.io/megas4/setup-guides/rclone-setup-guide-for-mega-s4][Mega-rclone guide @Mega-doc]]
 * DONE Orgmode github footnote :subOrgmode:subGithub:
 CLOSED: [2025-07-29 Tue 21:45] DEADLINE: <2025-07-29 Tue>
 - *OBJECTIVE:* Reference materials in =footnote= with =orgmode= on =github=

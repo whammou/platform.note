@@ -1,0 +1,49 @@
+#+OPTIONS: todo:t tags:nil tasks:t ^:nil toc:nil
+$
+#+FILETAGS: :typArchive:typTask:catOneoff:
+* DONE Github repo updates track :subGithub:
+CLOSED: [2025-09-06 Sat 20:09]
+:PROPERTIES:
+:ARCHIVE_TIME: 2026-06-16 Tue 17:37
+:ARCHIVE_FILE: /home/whammou/.local/share/orgmode/platform/tasks/oneoff.org
+:ARCHIVE_CATEGORY: oneoff
+:ARCHIVE_TODO: DONE
+:END:
+- *OBJECTIVE:* Find a way to keep track github repo updates and get notification from updates
+-----
+- *[NOTE]* taken on [2025-09-06 20:08]: \\
+  Keep track of =repo= updates and receive notifications throught emails by subscribing to the target =repo= and enable =email= notifications
+-----
+* ABRT Github wiki :subGithub:
+CLOSED: [2025-09-06 Sat 20:09]
+:PROPERTIES:
+:ARCHIVE_TIME: 2026-06-16 Tue 17:37
+:ARCHIVE_FILE: /home/whammou/.local/share/orgmode/platform/tasks/oneoff.org
+:ARCHIVE_CATEGORY: oneoff
+:ARCHIVE_TODO: ABRT
+:END:
+- *OBJECTIVE:* learn to write a github wiki page
+-----
+- *[NOTE]* taken on [2025-09-06 20:09]: \\
+  Wiki is not needed for a =pkm= system as wiki is the way to take notes within a functional repo. That is essentially a =pkm= repo
+-----
+* DONE Create issue on nvim-orgmode (vim-regex) :subGithub:topPackages:subNvim:subOrgmode:
+CLOSED: [2025-07-14 Mon 11:07] DEADLINE: <2025-07-14 Mon>
+:PROPERTIES:
+:ARCHIVE_TIME: 2026-06-16 Tue 17:37
+:ARCHIVE_FILE: /home/whammou/.local/share/orgmode/platform/tasks/oneoff.org
+:ARCHIVE_CATEGORY: oneoff
+:ARCHIVE_TODO: DONE
+:END:
+- *OBJECTIVE:* Create an issue on latex syntax does not load on nvim first launch
+- *Visit:* [[https://github.com/nvim-orgmode/orgmode/issues][Issue nvim-orgmode @Github]]
+* DONE Setup rclone mega :subRclone:MEGANZ:
+CLOSED: [2025-07-18 Fri 17:17] DEADLINE: <2025-07-18 Fri>
+:PROPERTIES:
+:ARCHIVE_TIME: 2026-06-16 Tue 17:37
+:ARCHIVE_FILE: /home/whammou/.local/share/orgmode/platform/tasks/oneoff.org
+:ARCHIVE_CATEGORY: oneoff
+:ARCHIVE_TODO: DONE
+:END:
+- *OBJECTIVE:* Setup rclone to sync with mega-nz cloud platfoem
+- *Reference:* [[https://help.mega.io/megas4/setup-guides/rclone-setup-guide-for-mega-s4][Mega-rclone guide @Mega-doc]]
