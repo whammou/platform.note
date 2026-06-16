@@ -47,3 +47,105 @@ CLOSED: [2025-07-18 Fri 17:17] DEADLINE: <2025-07-18 Fri>
 :END:
 - *OBJECTIVE:* Setup rclone to sync with mega-nz cloud platfoem
 - *Reference:* [[https://help.mega.io/megas4/setup-guides/rclone-setup-guide-for-mega-s4][Mega-rclone guide @Mega-doc]]
+* DONE Orgmode github footnote :subOrgmode:subGithub:
+CLOSED: [2025-07-29 Tue 21:45] DEADLINE: <2025-07-29 Tue>
+:PROPERTIES:
+:ARCHIVE_TIME: 2026-06-16 Tue 17:37
+:ARCHIVE_FILE: /home/whammou/.local/share/orgmode/platform/tasks/oneoff.org
+:ARCHIVE_CATEGORY: oneoff
+:ARCHIVE_TODO: DONE
+:END:
+- *OBJECTIVE:* Reference materials in =footnote= with =orgmode= on =github=
+-----
+- *[NOTE]* taken on <2025-07-29 21:13>:
+  - Orgmode footnote is not support by default on =org-ruby=
+  - To enable this feature add:
+    #+BEGIN_SRC org
+    #+OPTIONS: f:t
+    #+END_SRC
+    - Example: [[https://github.com/wallyqs/org-ruby/blob/master/spec/html_examples/footnotes.org][Org-ruby footnote @Github]]
+      - Footnote with $f(x) = a^2 + bx = c$
+-----
+- *Reference:*
+  - [[https://github.com/kmaasrud/wiki/blob/main/Action.md][Footnote reference example @Github]]
+  - [[https://github.com/github/markup/issues/1094][Github orgmode footnote not properly supported @Github-issue]]
+  - [[https://github.com/wallyqs/org-ruby/issues/2][Org-ruby add footnote support @Github-issue]]
+* DONE Orgmode inline language :subOrgmode:subGithub:
+CLOSED: [2025-07-29 Tue 22:24] DEADLINE: <2025-07-29 Tue>
+:PROPERTIES:
+:ARCHIVE_TIME: 2026-06-16 Tue 17:37
+:ARCHIVE_FILE: /home/whammou/.local/share/orgmode/platform/tasks/oneoff.org
+:ARCHIVE_CATEGORY: oneoff
+:ARCHIVE_TODO: DONE
+:END:
+- *OBJECTIVE:* Write inline source code block
+-----
+- *[NOTE]* taken on <2025-07-29 22:22>:
+  - This is a an inline language block src_lua{require("orgmode").setup()}
+  - Github does not seem to support inline language code block
+-----
+- *Reference:* [[https://github.com/nvim-orgmode/orgmode/issues/653][Inline source code block @Github-issue]]
+* DONE Testing image render :subOrgmode:ORGZlY:subGithub:MathRender:
+CLOSED: [2026-01-27 Tue 04:51] DEADLINE: <2026-01-27 Tue>
+:PROPERTIES:
+:ARCHIVE_TIME: 2026-06-16 Tue 17:37
+:ARCHIVE_FILE: /home/whammou/.local/share/orgmode/platform/tasks/oneoff.org
+:ARCHIVE_CATEGORY: oneoff
+:ARCHIVE_TODO: DONE
+:END:
+- *OBJECTIVE:* Find an image syntax that works on both github and orgzly
+-----
+- *[NOTE]* taken on [2025-09-06 20:17]: \\
+  Syntax that works with /github/ and /orgzly/ is =[[/root/to/file]l]= syntax (root as in the root directory of current repo). To obtain this relative directory (relative directory = =/root/to/file=). Using repo =root-dir= as absolute path
+  + To obtain current file root dir run:
+    #+NAME: Get root dir using git command
+    #+BEGIN_SRC bash
+    git rev-parse --show-toplevel
+    #+END_SRC
+  + Exclude root dir from filepath with =vim.gsub= to obtain a relative dir to target =asset=
+-----
+** DONE Github org-parse Images :subPandoc:
+CLOSED: [2026-01-27 Tue 04:53] DEADLINE: <2026-01-27 Tue>
+- *OBJECTIVE:* 
+  + [X] Testing if =org-ruby= parser on github render images with =attributes=
+  + [X] Testing if =pandoc= parser render images with =html=
+-----
+- *[NOTE]* taken on [2025-10-14 05:04]: \\
+  This is a test note for image =attribute=:
+  #+begin_html html
+  <img src="https://www.radfordmathematics.com/functions/quadratic-functions-parabola/vertex-form/vertex-form-illustration.png" style="width:50%;"/>
+  #+end_html
+    + =wallyqs/org-ruby= does not support =#+ATTR_HTML= attribute
+-----
+
+[[file:https://www.radfordmathematics.com/functions/quadratic-functions-parabola/vertex-form/vertex-form-illustration.png]]
+
+#+begin_html html
+<img src="https://www.radfordmathematics.com/functions/quadratic-functions-parabola/vertex-form/vertex-form-illustration.png" style="width:50%;"/>
+#+end_html
+
+
+#+begin_src html
+<img src='https://www.radfordmathematics.com/functions/quadratic-functions-parabola/vertex-form/vertex-form-illustration.png' style='width:50%;'/>
+#+end_src
+
+- *Reference:* [[https://github.com/fniessen/refcard-org-mode/tree/master][Orgmode ref card @Org]]
+* DONE Find a Suitable Search Engine :SEARCHENGINE:
+CLOSED: [2025-11-26 Wed 04:36] DEADLINE: <2025-11-26 Wed 12:30>
+:PROPERTIES:
+:ARCHIVE_TIME: 2026-06-16 Tue 17:37
+:ARCHIVE_FILE: /home/whammou/.local/share/orgmode/platform/tasks/oneoff.org
+:ARCHIVE_CATEGORY: oneoff
+:ARCHIVE_TODO: DONE
+:END:
+#+name:LOGBOOK
+#+html:<details><summary>LOGBOOK</summary>
+:LOGBOOK:
+- Note taken on [2025-11-26 Wed 04:36] \\
+  =searxng= support both /internal/ and /external/ redirect along with many more customizable =categories= and variety of syntax support
+:END:
+#+html:</details>
+- *OBJECTIVE:* Find a more suitable search engine than =google=
+** DONE Config SearXNG :SEARXNG:
+CLOSED: [2025-11-27 Thu 20:46] DEADLINE: <2025-11-27 Thu 12:30>
+- *OBJECTIVE:* Learn =syntax= and config =searxng=
