@@ -7,13 +7,6 @@ Organize ~scripts~ in ~/scipts~ and ~scripts~ in ~$PATH~
 - [ ] Organize ~/scripts~
 - [ ] Oragnize [[file:/home/whammou/notes/capture.org:topNote:*Qtile scripts][qtile]] scripts
 - [ ] Oragnize ~$PATH~
-* DONE Github repo updates track :subGithub:
-CLOSED: [2025-09-06 Sat 20:09]
-- *OBJECTIVE:* Find a way to keep track github repo updates and get notification from updates
------
-- *[NOTE]* taken on [2025-09-06 20:08]: \\
-  Keep track of =repo= updates and receive notifications throught emails by subscribing to the target =repo= and enable =email= notifications
------
 * ABRT Github wiki :subGithub:
 CLOSED: [2025-09-06 Sat 20:09]
 - *OBJECTIVE:* learn to write a github wiki page
