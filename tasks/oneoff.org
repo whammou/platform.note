@@ -12,28 +12,6 @@ Organize ~scripts~ in ~/scipts~ and ~scripts~ in ~$PATH~
 :ID:       2b2eaa80-2103-4ecb-b5d2-4e1f8893d901
 :END:
 - *OBJECTIVE:* /Update my github profile/
-* ABRT Workaround id link :subGithub:subOrgmode:
-CLOSED: [2025-09-06 Sat 21:03] DEADLINE: <2025-09-06 Sat>
-- *OBJECTIVE:* Workaround github render does not support for id link like in orgmode
------
-- *[NOTE]* taken on [2025-09-06 21:03]: \\
-  There are hardly and workaround with =id-link= that actually work because github is not meant to be a =pkm= hosting site. However one can always manually add file-link to their documents
------
-- *Reference:* [[https://old.reddit.com/r/emacs/comments/1fdt3bf/a_quick_hack_to_convert_orgorgroam_links_from_id/][Workaround id link on github orgmode @Reddit]]
-** PRTL Using file_link on Github
-CLOSED: [2025-09-06 Sat 21:10] DEADLINE: <2025-09-06 Sat>
-:PROPERTIES:
-:ID:       143eaa14-d3e0-4743-b745-07358c59476d
-:END:
-- *OBJECTIVE:* Adding aditional file_link in orgmode for interation on Github
------
-- *[NOTE]* taken on [2025-09-05 23:42]: \\
-  + *Idea:* Using snippets to poplate an extra link for rendering on github
-    * E.g. [[id:143eaa14-d3e0-4743-b745-07358c59476d][Using file_link on Github @Org]] ([[/system/platform/tasks/oneoff.org][view on Github]])
-  + *Issue:* To generate a =file_link= to a percise location requires s /slug format/ of a =headline= AND its =state= which is not a suitable solution as =state= change dynamically compares to a static nature of a =headline=
-    * Workaround - Disable render of =state= on github combines with =headline-slug= to genrate html friendly link
-    * This works very fine with =docs= but not =tasks=
------
 * PEND Advanced search Github :subGithub:
 - *OBJECTIVE:* Learn avanced search technique on github
 - *Reference:* [[https://www.freecodecamp.org/news/github-search-tips/][Github advanced search tips @Freecodecamp]]
@@ -43,35 +21,6 @@ CLOSED: [2025-09-06 Sat 21:10] DEADLINE: <2025-09-06 Sat>
 * PEND Manage Dotfiles with Gitbare :subGit:subGithub:
 - *OBJECTIVE:* Mange files using a gitbare repo
 - *Reference:* [[https://www.youtube.com/watch?v=tBoLDpTWVOM#__preview][Git Bare Repository @Youtube-DT]]
-* ABRT Testing Mermaid Render on Github :subGithub:subOrgmode:MERMAID:
-DEADLINE: <2026-02-08 Sun> CLOSED: [2026-02-08 Sun 03:27]
-:PROPERTIES:
-:ID: d4fc0bcb-69b8-4dc2-ac79-789bf38c1906
-:END:
-#+name:LOGBOOK
-#+html:<details><summary>LOGBOOK</summary>
-:LOGBOOK:
-- Note taken on [2026-02-08 Sun 03:27] \\
-  Currently bot =org-ruby/wallyqs= and =nvim-orgmode= does not support =mermaid=
-:END:
-#+html:</details>
-- *OBJECTIVE:*  Testing =mermaid= render on =github= using =orgmode=
-- *Reference:*  [[https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/creating-diagrams][Github creating diagram @Github-doc]]
-#+BEGIN_SRC mermaid
-graph TD;
-    A-->B;
-    A-->C;
-    B-->D;
-    C-->D;
-#+END_SRC
-
-#+begin_src mermaid
-graph TD;
-    A-->B;
-    A-->C;
-    B-->D;
-    C-->D;
-#+end_src
 * TODO Investigate DeSec :subDeSec:
 :PROPERTIES:
 :ID: a45e7440-e6f0-4b47-aa6c-3ed97673cf5f
